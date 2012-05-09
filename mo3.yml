@@ -1,0 +1,1613 @@
+---
+processor: ARM
+platform: gba
+title: "Mother 3 (JPN + translation)"
+...
+---
+0x080CC4E8:
+  type: data
+  size: 0x1440
+  entries:
+  - name: Nobody's Data
+    size: 0x144
+    type: table
+    entries: &Unknown_CC4E8
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 0x74
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
+  - name: Flint's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Lucas's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Duster's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Kumatora's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Boney's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Salsa's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Wess's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Thomas's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Ionia's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Fuel's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Alec's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Fassad's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: Claus's Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: ???'s Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+  - name: ????'s Data
+    size: 0x144
+    type: table
+    entries: *Unknown_CC4E8
+0x080CD928:
+  type: data
+  size: 6400
+  name: EXP_NEEDED_TABLE
+  description: EXP needed for next level
+  entries:
+  - name: Nobody level up data
+    size: 0x190
+    type: table
+    entries: &LEVELUP
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
+  - name: Flint level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Lucas level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Duster level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Kumatora level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Boney level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Salsa level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Wess level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Thomas level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Ionia level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Fuel level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Alec level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Fassad level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: Claus level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: ??? level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+  - name: ???? level up data
+    size: 0x190
+    type: table
+    entries: *LEVELUP
+0x080CF228:
+  type: data
+  size: 0x1B00
+0x080D0D28:
+  type: data
+  size: 36864
+  name: ENEMY_CONFIGURATION_TABLE
+  description: Enemy Stats
+  entries:
+  - name: Unknown
+    size: 0xA
+    type: bytearray
+  - name: Background
+    size: 2
+  - name: Swirl Music
+    size: 2
+  - name: Battle Music
+    size: 2
+  - name: Victory Music
+    size: 2
+  - name: Level
+    size: 2
+  - name: HP
+    size: 4
+  - name: PP
+    size: 4
+  - name: Misc Stats
+    size: 4
+    type: table
+    entries: &MiscStats
+    - name: Offense
+      size: 1
+    - name: Defense
+      size: 1
+    - name: IQ
+      size: 1
+    - name: Speed
+      size: 1
+  - name: Unknown B
+    size: 4
+    type: bytearray
+  - name: Alternate stats
+    entries: *MiscStats
+    size: 4
+    type: table
+  - name: Unknown C
+    size: 4
+    type: bytearray
+  - name: Weaknesses
+    type: table
+    size: 40
+    entries:
+    - name: Poison
+      size: 2
+    - name: Paralysis
+      size: 2
+    - name: Sleep
+      size: 2
+    - name: Feeling Strange
+      size: 2
+    - name: Crying
+      size: 2
+    - name: Forgetful
+      size: 2
+    - name: Nausea
+      size: 2
+    - name: Fleas
+      size: 2
+    - name: Burned
+      size: 2
+    - name: Solidified
+      size: 2
+    - name: Numbness
+      size: 2
+    - name: DCMC
+      size: 2
+    - name: Wall Staples
+      size: 2
+    - name: Apology
+      size: 2
+    - name: Laughter
+      size: 2
+    - name: PK Love
+      size: 2
+    - name: PK Fire
+      size: 2
+    - name: PK Freeze
+      size: 2
+    - name: PK Thunder
+      size: 2
+    - name: Explosives
+      size: 2
+  - name: Actions
+    type: table
+    size: 16
+    entries:
+    - size: 2
+  - name: Unknown D
+    size: 2
+    type: bytearray
+  - name: Encounter Text ID
+    size: 1
+  - name: Death Text ID
+    size: 1
+  - name: Unknown E
+    size: 16
+    type: bytearray
+  - name: Items Dropped
+    type: table
+    size: 12
+    entries:
+    - name: Item
+      size: 1
+    - name: Chance
+      size: 3
+  - name: EXP Gained
+    size: 4
+  - name: DP Gained
+    size: 4
+  - name: Unknown F
+    size: 4
+    type: bytearray
+0x080D9D28:
+  type: data
+  size: 31200
+  name: ACTION_TABLE
+  description: Action Table?
+  entries:
+  - name: Unknown
+    type: bytearray
+    size: 0x30
+0x080E1708:
+  type: data
+  size: 0x200
+0x080E1908:
+  type: data
+  name: PSI_DATA
+  description: PSI Data
+  size: 0x15E0
+  entries:
+  - name: Unknown
+    size: 4
+    type: bytearray
+  - name: Type
+    size: 1
+  - name: Unknown B
+    size: 7
+    type: bytearray
+  - name: PP Cost
+    size: 2
+  - name: Unknown C
+    size: 10
+    type: bytearray
+  - name: Target
+    size: 1
+  - name: Unknown D
+    size: 5
+    type: bytearray
+  - name: Power (Low)
+    size: 2
+  - name: Power (High)
+    size: 2
+  - name: Unknown E
+    size: 13
+    type: bytearray
+  - name: Animation
+    type: table
+    size: 2
+    entries:
+    - size: 1
+  - name: Unknown F
+    size: 7
+    type: bytearray
+0x080E2EE8:
+  type: data
+  size: 0x2220
+0x080E5108:
+  type: data
+  size: 27648
+  name: ITEM_DATA
+  description: Item data
+  entries:
+  - name: Unknown A
+    size: 4
+    type: bytearray
+  - name: Type
+    size: 1
+  - name: Unknown B
+    size: 3
+    type: bytearray
+  - name: Key Item
+    size: 1
+  - name: Unknown C
+    size: 1
+    type: bytearray
+  - name: Sell Price
+    size: 2
+  - name: Equipped By
+    size: 1
+    type: bitfield
+    bitvalues:
+    - Unknown
+    - Flint
+    - Lucas
+    - Duster
+    - Kumatora
+    - Boney
+    - Salsa
+    - UnknownB
+  - name: Unknown D
+    size: 3
+    type: bytearray
+  - name: HP added
+    size: 4
+    signed: y
+  - name: PP added
+    size: 2
+    signed: y
+  - name: Unknown E
+    size: 2
+    type: bytearray
+  - name: Offense added
+    size: 1
+    signed: y
+  - name: Defense added
+    size: 1
+    signed: y
+  - name: IQ added
+    size: 1
+    signed: y
+  - name: Speed added
+    size: 1
+    signed: y
+  - name: Unknown F
+    size: 4
+    type: bytearray
+  - name: Protections
+    size: 22
+    type: table
+    entries:
+    - name: Poison
+      size: 2
+      signed: y
+    - name: Paralysis
+      size: 2
+      signed: y
+    - name: Sleep
+      size: 2
+      signed: y
+    - name: Strange
+      size: 2
+      signed: y
+    - name: Crying
+      size: 2
+      signed: y
+    - name: Forgetful
+      size: 2
+      signed: y
+    - name: Nausea
+      size: 2
+      signed: y
+    - name: Fleas
+      size: 2
+      signed: y
+    - name: Burned
+      size: 2
+      signed: y
+    - name: Solidified
+      size: 2
+      signed: y
+    - name: Numbness
+      size: 2
+      signed: y
+  - name: Elemental Protection
+    size: 4
+    type: table
+    entries:
+    - name: PSI Love
+      size: 1
+      signed: y
+    - name: PSI Fire
+      size: 1
+      signed: y
+    - name: PSI Freeze
+      size: 1
+      signed: y
+    - name: PSI Thunder
+      size: 1
+      signed: y
+    - name: Explosives
+      size: 1
+      signed: y
+  - name: Unknown G
+    size: 0x13
+    type: bytearray
+  - name: HP1
+    size: 2
+  - name: HP2
+    size: 2
+  - name: Unknown H
+    size: 0x1A
+    type: bytearray
+0x080EBD08:
+  type: data
+  size: 0x870
+  name: SHOP_DATA
+  description: Items sold in shops
+  entries:
+  - name: Item List
+    type: table
+    size: 0x3C
+    entries:
+    - name: Item
+      size: 2
+0x080EC578:
+  type: data
+  size: 0x13C8
+0x080ED940:
+  type: data
+  size: 0x1F3F
+  name: WEIRDTEXT
+  entries:
+  - name: Text
+    type: asciitext
+    terminator: 0
+0x080F0080:
+  type: data
+  size: 0x800
+  entries:
+  - name: Unknown
+    type: bytearray
+    size: 8
+0x080F0880:
+  type: data
+  size: 0x400
+  entries:
+  - name: Unknown
+    type: bytearray
+    size: 4
+0x080F0C80:
+  type: data
+  size: 0xBB8
+  entries:
+  - name: Unknown
+    type: bytearray
+    size: 5
+0x080ED940:
+  type: data
+  size: 0x1F3F
+  name: MOREWEIRDTEXT
+  entries:
+  - name: Text
+    type: asciitext
+    terminator: 0
+0x08CF9A8A:
+  type: data
+  size: 0x17B0
+  name: ABILDESCTEXT
+  entries:
+  - name: Text
+    type: UTF-16
+    size: 0x17B0
+0x09A442A4:
+  type: data
+  size: 0xFA0
+  name: SPRITE_BANK_0_PTRS
+  description: Pointers for sprite bank 0
+  entries:
+  - name: Pointer
+    size: 4
+0x09A45244:
+  type: data
+  size: 0x9B3F4
+  name: SPRITE_BANK_1
+0x09AE0638:
+  type: data
+  size: 0xFA0
+  name: SPRITE_BANK_1_PTRS
+  description: Pointers for sprite bank 1
+  entries:
+  - name: Pointer
+    size: 4
+0x09AEE4C4:
+  type: data
+  size: 0xFA0
+  name: SPRITE_BANK_2_PTRS
+  description: Pointers for sprite bank 2
+  entries:
+  - name: Pointer
+    size: 4
+0x09AF1ED0:
+  type: data
+  size: 0xFA0
+  name: SPRITE_BANK_3_PTRS
+  description: Pointers for sprite bank 3
+  entries:
+  - name: Pointer
+    size: 4
+0x09D0BC9C:
+  type: data
+  size: 0x13CA2
+  name: BG_TABLE
+  description: Background Layer table
+  entries:
+  - name: layer count
+    size: 2
+  - name: master count
+    size: 2
+  - name: Layer entries
+    #size: 0x13320
+    size: layer count * 0x90
+    type: table
+    entries:
+    - name: Graphics ID
+      size: 2
+    - name: Arrangement ID
+      size: 2
+    - name: Palette 1
+      type: palette
+      size: 32
+    - name: Palette 2
+      type: palette
+      size: 32
+    - name: Palette direction
+      size: 2
+    - name: UnknownA
+      size: 2
+    - name: Palette start
+      size: 2
+    - name: Palette end
+      size: 2
+    - name: Palette delay
+      size: 2
+    - name: UnknownB
+      type: bytearray
+      size: 0x26
+    - name: Horizontal drift
+      size: 2
+      signed: y
+    - name: Vertical drift
+      size: 2
+      signed: y
+    - name: UnknownC
+      size: 4
+      type: bytearray
+    - name: Horizontal amplitude
+      size: 2
+      signed: y
+    - name: Vertical amplitude
+      size: 2
+      signed: y
+    - name: Horizontal wavenumber
+      size: 2
+      signed: y
+    - name: Vertical wavenumber
+      size: 2
+      signed: y
+    - name: Horizontal frequency
+      size: 2
+      signed: y
+    - name: Vertical frequency
+      size: 2
+      signed: y
+    - name: UnknownD
+      type: bytearray
+      size: 8
+  - name: Master Background table
+    type: table
+    size: master count * 12
+    entries:
+    - name: Layer 1
+      size: 2
+    - name: Layer 2
+      size: 2
+    - name: Alpha 1
+      size: 2
+    - name: Alpha 2
+      size: 2
+    - name: Unknown A
+      size: 2
+    - name: Unknown B
+      size: 2
+0x09D1FB30:
+  type: data
+  size: 3272
+  name: UNKNOWN_BG2
+  description:
+  entries:
+  - name: Offset
+    type: pointer
+    size: 4
+  - name: Size
+    size: 4
+0x09D207F8:
+  type: data
+  size: 832
+0x09D20B38:
+  type: data
+  size: 2048
+0x09D21338:
+  type: data
+  size: 4352
+0x09D22438:
+  type: data
+  size: 2048
+0x09D22C38:
+  type: data
+  size: 2304
+0x09D23538:
+  type: data
+  size: 2048
+0x09D23D38:
+  type: data
+  size: 2304
+0x09D24638:
+  type: data
+  size: 2048
+0x09D24E38:
+  type: data
+  size: 2304
+0x09D25738:
+  type: data
+  size: 2048
+0x09D25F38:
+  type: data
+  size: 2304
+0x09D26838:
+  type: data
+  size: 2048
+0x09D27038:
+  type: data
+  size: 2304
+0x09D27938:
+  type: data
+  size: 2048
+0x09D28138:
+  type: data
+  size: 2304
+0x09D28A38:
+  type: data
+  size: 2048
+0x09D29238:
+  type: data
+  size: 768
+0x09D29538:
+  type: data
+  size: 2048
+0x09D29D38:
+  type: data
+  size: 1280
+0x09D2A238:
+  type: data
+  size: 2048
+0x09D2AA38:
+  type: data
+  size: 768
+0x09D2AD38:
+  type: data
+  size: 2048
+0x09D2B538:
+  type: data
+  size: 2304
+0x09D2BE38:
+  type: data
+  size: 2048
+0x09D2C638:
+  type: data
+  size: 768
+0x09D2C938:
+  type: data
+  size: 2048
+0x09D2D138:
+  type: data
+  size: 2304
+0x09D2DA38:
+  type: data
+  size: 2048
+0x09D2E238:
+  type: data
+  size: 6400
+0x09D2FB38:
+  type: data
+  size: 2048
+0x09D30338:
+  type: data
+  size: 4352
+0x09D31438:
+  type: data
+  size: 2048
+0x09D31C38:
+  type: data
+  size: 1280
+0x09D32138:
+  type: data
+  size: 2048
+0x09D32938:
+  type: data
+  size: 2304
+0x09D33238:
+  type: data
+  size: 2048
+0x09D33A38:
+  type: data
+  size: 8448
+0x09D35B38:
+  type: data
+  size: 2048
+0x09D36338:
+  type: data
+  size: 448
+0x09D364F8:
+  type: data
+  size: 2048
+0x09D36CF8:
+  type: data
+  size: 4352
+0x09D37DF8:
+  type: data
+  size: 2048
+0x09D385F8:
+  type: data
+  size: 2304
+0x09D38EF8:
+  type: data
+  size: 2048
+0x09D396F8:
+  type: data
+  size: 3648
+0x09D3A538:
+  type: data
+  size: 2048
+0x09D3AD38:
+  type: data
+  size: 2304
+0x09D3B638:
+  type: data
+  size: 2048
+0x09D3BE38:
+  type: data
+  size: 2304
+0x09D3C738:
+  type: data
+  size: 2048
+0x09D3CF38:
+  type: data
+  size: 8448
+0x09D3F038:
+  type: data
+  size: 2048
+0x09D3F838:
+  type: data
+  size: 4352
+0x09D40938:
+  type: data
+  size: 2048
+0x09D41138:
+  type: data
+  size: 2304
+0x09D41A38:
+  type: data
+  size: 2048
+0x09D42238:
+  type: data
+  size: 800
+0x09D42558:
+  type: data
+  size: 2048
+0x09D42D58:
+  type: data
+  size: 4352
+0x09D43E58:
+  type: data
+  size: 2048
+0x09D44658:
+  type: data
+  size: 2304
+0x09D44F58:
+  type: data
+  size: 2048
+0x09D45758:
+  type: data
+  size: 1312
+0x09D45C78:
+  type: data
+  size: 2048
+0x09D46478:
+  type: data
+  size: 8448
+0x09D48578:
+  type: data
+  size: 2048
+0x09D48D78:
+  type: data
+  size: 4352
+0x09D49E78:
+  type: data
+  size: 2048
+0x09D4A678:
+  type: data
+  size: 8448
+0x09D4C778:
+  type: data
+  size: 2048
+0x09D4CF78:
+  type: data
+  size: 1280
+0x09D4D478:
+  type: data
+  size: 2048
+0x09D4DC78:
+  type: data
+  size: 4352
+0x09D4ED78:
+  type: data
+  size: 2048
+0x09D4F578:
+  type: data
+  size: 8448
+0x09D51678:
+  type: data
+  size: 2048
+0x09D51E78:
+  type: data
+  size: 4352
+0x09D52F78:
+  type: data
+  size: 2048
+0x09D55F38:
+  type: data
+  size: 1280
+0x09D56438:
+  type: data
+  size: 2048
+0x09D56C38:
+  type: data
+  size: 768
+0x09D56F38:
+  type: data
+  size: 0x800
+0x09D57738:
+  type: data
+  size: 8448
+0x09D59838:
+  type: data
+  size: 2048
+0x09D5A038:
+  type: data
+  size: 1216
+0x09D5A4F8:
+  type: data
+  size: 2048
+0x09D5C038:
+  type: data
+  size: 4352
+0x09D5D138:
+  type: data
+  size: 2048
+0x09D5D938:
+  type: data
+  size: 2304
+0x09D5E238:
+  type: data
+  size: 2048
+0x09D5EA38:
+  type: data
+  size: 4352
+0x09D5FB38:
+  type: data
+  size: 2048
+0x09D60338:
+  type: data
+  size: 8448
+0x09D62438:
+  type: data
+  size: 2048
+0x09D62C38:
+  type: data
+  size: 4352
+0x09D63D38:
+  type: data
+  size: 2048
+0x09D69778:
+  type: data
+  size: 3840
+0x09D6A678:
+  type: data
+  size: 2048
+0x09D70D38:
+  type: data
+  size: 512
+0x09D70F38:
+  type: data
+  size: 0x800
+0x09D71C38:
+  type: data
+  size: 0x800
+0x09D72438:
+  type: data
+  size: 1280
+0x09D72938:
+  type: data
+  size: 2048
+0x09D73138:
+  type: data
+  size: 4352
+0x09D74238:
+  type: data
+  size: 2048
+0x09D78658:
+  type: data
+  size: 2304
+0x09D78F58:
+  type: data
+  size: 2048
+0x09D79758:
+  type: data
+  size: 4352
+0x09D7A858:
+  type: data
+  size: 2048
+0x09D7B058:
+  type: data
+  size: 4352
+0x09D7C158:
+  type: data
+  size: 2048
+0x09D7C958:
+  type: data
+  size: 4352
+0x09D7DA58:
+  type: data
+  size: 2048
+0x09D7E258:
+  type: data
+  size: 2304
+0x09D7EB58:
+  type: data
+  size: 2048
+0x09D7F358:
+  type: data
+  size: 4352
+0x09D80458:
+  type: data
+  size: 2048
+0x09D83418:
+  type: data
+  size: 4352
+0x09D84518:
+  type: data
+  size: 2048
+0x09D9BB18:
+  type: data
+  size: 2304
+0x09D9C418:
+  type: data
+  size: 2048
+0x09D9CC18:
+  type: data
+  size: 2304
+0x09D9D518:
+  type: data
+  size: 2048
+0x09D9DD18:
+  type: data
+  size: 1280
+0x09D9E218:
+  type: data
+  size: 2048
+0x09D9EA18:
+  type: data
+  size: 4352
+0x09D9FB18:
+  type: data
+  size: 2048
+0x09DA0318:
+  type: data
+  size: 2304
+0x09DA0C18:
+  type: data
+  size: 2048
+0x09DA1418:
+  type: data
+  size: 2304
+0x09DA1D18:
+  type: data
+  size: 2048
+0x09DA2518:
+  type: data
+  size: 4640
+0x09DA3738:
+  type: data
+  size: 2048
+0x09DA3F38:
+  type: data
+  size: 512
+0x09DA4138:
+  type: data
+  size: 2048
+0x09DA4938:
+  type: data
+  size: 2304
+0x09DA5238:
+  type: data
+  size: 2048
+0x09DA5A38:
+  type: data
+  size: 1280
+0x09DA5F38:
+  type: data
+  size: 2048
+0x09DA6738:
+  type: data
+  size: 512
+0x09DA6938:
+  type: data
+  size: 2048
+0x09DA7138:
+  type: data
+  size: 4352
+0x09DA8238:
+  type: data
+  size: 2048
+0x09DA8A38:
+  type: data
+  size: 1280
+0x09DA8F38:
+  type: data
+  size: 2048
+0x09DA9738:
+  type: data
+  size: 384
+0x09DA98B8:
+  type: data
+  size: 2048
+0x09DAA0B8:
+  type: data
+  size: 4352
+0x09DAB1B8:
+  type: data
+  size: 2048
+0x09DAECD8:
+  type: data
+  size: 4352
+0x09DAFDD8:
+  type: data
+  size: 2048
+0x09DB05D8:
+  type: data
+  size: 4352
+0x09DB16D8:
+  type: data
+  size: 2048
+0x09DB1ED8:
+  type: data
+  size: 2304
+0x09DB27D8:
+  type: data
+  size: 2048
+0x09DB2FD8:
+  type: data
+  size: 512
+0x09DB31D8:
+  type: data
+  size: 2048
+0x09DB39D8:
+  type: data
+  size: 3392
+0x09DB4718:
+  type: data
+  size: 2048
+0x09DB4F18:
+  type: data
+  size: 384
+0x09DB5098:
+  type: data
+  size: 2048
+0x09DB5898:
+  type: data
+  size: 2304
+0x09DB6198:
+  type: data
+  size: 2048
+0x09DB6998:
+  type: data
+  size: 2304
+0x09DB7298:
+  type: data
+  size: 2048
+0x09DB7A98:
+  type: data
+  size: 2304
+0x09DB8398:
+  type: data
+  size: 2048
+0x09DB8B98:
+  type: data
+  size: 768
+0x09DB8E98:
+  type: data
+  size: 2048
+0x09DB9698:
+  type: data
+  size: 2304
+0x09DB9F98:
+  type: data
+  size: 2048
+0x09DBA798:
+  type: data
+  size: 4352
+0x09DBB898:
+  type: data
+  size: 2048
+0x09DBC098:
+  type: data
+  size: 768
+0x09DBC398:
+  type: data
+  size: 2048
+0x09DBCB98:
+  type: data
+  size: 4352
+0x09DBDC98:
+  type: data
+  size: 2048
+0x09DBE498:
+  type: data
+  size: 1792
+0x09DBEB98:
+  type: data
+  size: 2048
+0x09DBF398:
+  type: data
+  size: 384
+0x09DBF518:
+  type: data
+  size: 2048
+0x09DBFD18:
+  type: data
+  size: 4352
+0x09DC0E18:
+  type: data
+  size: 2048
+0x09DC1618:
+  type: data
+  size: 4352
+0x09DC2718:
+  type: data
+  size: 2048
+0x09DC2F18:
+  type: data
+  size: 2304
+0x09DC3818:
+  type: data
+  size: 2048
+0x09DC4018:
+  type: data
+  size: 1280
+0x09DC4518:
+  type: data
+  size: 2048
+0x09DC4D18:
+  type: data
+  size: 2304
+0x09DC5618:
+  type: data
+  size: 2048
+0x09DC5E18:
+  type: data
+  size: 8704
+0x09DC8018:
+  type: data
+  size: 2048
+0x09DC8818:
+  type: data
+  size: 2304
+0x09DC9118:
+  type: data
+  size: 2048
+0x09DC9918:
+  type: data
+  size: 2304
+0x09DCA218:
+  type: data
+  size: 2048
+0x09DCAA18:
+  type: data
+  size: 4352
+0x09DCBB18:
+  type: data
+  size: 2048
+0x09DCC318:
+  type: data
+  size: 512
+0x09DCC518:
+  type: data
+  size: 2048
+0x09DCCD18:
+  type: data
+  size: 8448
+0x09DCEE18:
+  type: data
+  size: 2048
+0x09DCF618:
+  type: data
+  size: 2304
+0x09DCFF18:
+  type: data
+  size: 2048
+0x09DD0718:
+  type: data
+  size: 2304
+0x09DD1018:
+  type: data
+  size: 2048
+0x09DD1818:
+  type: data
+  size: 2304
+0x09DD2118:
+  type: data
+  size: 2048
+0x09DD2918:
+  type: data
+  size: 2304
+0x09DD3218:
+  type: data
+  size: 2048
+0x09DD3A18:
+  type: data
+  size: 1536
+0x09DD4018:
+  type: data
+  size: 2048
+0x09DD4818:
+  type: data
+  size: 2304
+0x09DD5118:
+  type: data
+  size: 2048
+0x09DD5918:
+  type: data
+  size: 8448
+0x09DD7A18:
+  type: data
+  size: 2048
+0x09DD8218:
+  type: data
+  size: 8448
+0x09DDA318:
+  type: data
+  size: 2048
+0x09DDAB18:
+  type: data
+  size: 1280
+0x09DDB018:
+  type: data
+  size: 2048
+0x09DDB818:
+  type: data
+  size: 2304
+0x09DDC118:
+  type: data
+  size: 2048
+0x09DDC918:
+  type: data
+  size: 8448
+0x09DDEA18:
+  type: data
+  size: 2048
+0x09DDF218:
+  type: data
+  size: 2304
+0x09DDFB18:
+  type: data
+  size: 2048
+0x09DE0318:
+  type: data
+  size: 7424
+0x09DE2018:
+  type: data
+  size: 2048
+0x09DE2818:
+  type: data
+  size: 2304
+0x09DE3118:
+  type: data
+  size: 2048
+0x09DE3918:
+  type: data
+  size: 704
+0x09DE3BD8:
+  type: data
+  size: 2048
+0x09DE43D8:
+  type: data
+  size: 768
+0x09DE46D8:
+  type: data
+  size: 2048
+0x09DE4ED8:
+  type: data
+  size: 2304
+0x09DE57D8:
+  type: data
+  size: 2048
+0x09DE5FD8:
+  type: data
+  size: 2304
+0x09DE68D8:
+  type: data
+  size: 2048
+0x09DE70D8:
+  type: data
+  size: 2304
+0x09DE79D8:
+  type: data
+  size: 2048
+0x09DE81D8:
+  type: data
+  size: 4352
+0x09DE92D8:
+  type: data
+  size: 2048
+0x09DE9AD8:
+  type: data
+  size: 1280
+0x09DE9FD8:
+  type: data
+  size: 2048
+0x09DED1D8:
+  type: data
+  size: 7936
+0x09DEF0D8:
+  type: data
+  size: 2048
+0x09DEF8D8:
+  type: data
+  size: 8448
+0x09DF19D8:
+  type: data
+  size: 2048
+0x09DF4AD8:
+  type: data
+  size: 4352
+0x09DF5BD8:
+  type: data
+  size: 2048
+0x09E14A18:
+  type: data
+  size: 416
+0x09E14BB8:
+  type: data
+  size: 2048
+...
