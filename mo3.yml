@@ -1,24 +1,26 @@
 ---
 processor: ARM
 platform: gba
-title: "Mother 3 (JPN + translation)"
+title: "Mother 3"
+country: JP
+version: 1 translated
 ...
 ---
-0x080CC4E8:
+0x80CC4E8:
   type: data
-  size: 0x1440
+  size: 5184
   entries:
   - name: Nobody's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: &Unknown_CC4E8
+    entries:
     - name: ID
       size: 1
     - name: Unknown
       size: 191
       type: bytearray
     - name: PSI Learned
-      size: 0x74
+      size: 116
       type: table
       entries:
       - name: PSI ID
@@ -29,75 +31,316 @@ title: "Mother 3 (JPN + translation)"
       size: 16
       type: bytearray
   - name: Flint's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Lucas's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Duster's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Kumatora's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Boney's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Salsa's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Wess's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Thomas's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Ionia's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Fuel's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Alec's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Fassad's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: Claus's Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: ???'s Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
   - name: ????'s Data
-    size: 0x144
+    size: 324
     type: table
-    entries: *Unknown_CC4E8
-0x080CD928:
+    entries:
+    - name: ID
+      size: 1
+    - name: Unknown
+      size: 191
+      type: bytearray
+    - name: PSI Learned
+      size: 116
+      type: table
+      entries:
+      - name: PSI ID
+        size: 2
+      - name: Level
+        size: 2
+    - name: Unknown B
+      size: 16
+      type: bytearray
+  offset: 0x80CC4E8
+0x80CD928: &EXP_NEEDED_TABLE
   type: data
   size: 6400
   name: EXP_NEEDED_TABLE
   description: EXP needed for next level
   entries:
   - name: Nobody level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: &LEVELUP
+    entries:
     - name: Level 0
       size: 4
     - name: Level 1
@@ -299,76 +542,3078 @@ title: "Mother 3 (JPN + translation)"
     - name: Level 99
       size: 4
   - name: Flint level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Lucas level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Duster level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Kumatora level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Boney level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Salsa level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Wess level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Thomas level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Ionia level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Fuel level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Alec level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Fassad level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: Claus level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: ??? level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
   - name: ???? level up data
-    size: 0x190
+    size: 400
     type: table
-    entries: *LEVELUP
-0x080CF228:
+    entries:
+    - name: Level 0
+      size: 4
+    - name: Level 1
+      size: 4
+    - name: Level 2
+      size: 4
+    - name: Level 3
+      size: 4
+    - name: Level 4
+      size: 4
+    - name: Level 5
+      size: 4
+    - name: Level 6
+      size: 4
+    - name: Level 7
+      size: 4
+    - name: Level 8
+      size: 4
+    - name: Level 9
+      size: 4
+    - name: Level 10
+      size: 4
+    - name: Level 11
+      size: 4
+    - name: Level 12
+      size: 4
+    - name: Level 13
+      size: 4
+    - name: Level 14
+      size: 4
+    - name: Level 15
+      size: 4
+    - name: Level 16
+      size: 4
+    - name: Level 17
+      size: 4
+    - name: Level 18
+      size: 4
+    - name: Level 19
+      size: 4
+    - name: Level 20
+      size: 4
+    - name: Level 21
+      size: 4
+    - name: Level 22
+      size: 4
+    - name: Level 23
+      size: 4
+    - name: Level 24
+      size: 4
+    - name: Level 25
+      size: 4
+    - name: Level 26
+      size: 4
+    - name: Level 27
+      size: 4
+    - name: Level 28
+      size: 4
+    - name: Level 29
+      size: 4
+    - name: Level 30
+      size: 4
+    - name: Level 31
+      size: 4
+    - name: Level 32
+      size: 4
+    - name: Level 33
+      size: 4
+    - name: Level 34
+      size: 4
+    - name: Level 35
+      size: 4
+    - name: Level 36
+      size: 4
+    - name: Level 37
+      size: 4
+    - name: Level 38
+      size: 4
+    - name: Level 39
+      size: 4
+    - name: Level 40
+      size: 4
+    - name: Level 41
+      size: 4
+    - name: Level 42
+      size: 4
+    - name: Level 43
+      size: 4
+    - name: Level 44
+      size: 4
+    - name: Level 45
+      size: 4
+    - name: Level 46
+      size: 4
+    - name: Level 47
+      size: 4
+    - name: Level 48
+      size: 4
+    - name: Level 49
+      size: 4
+    - name: Level 50
+      size: 4
+    - name: Level 51
+      size: 4
+    - name: Level 52
+      size: 4
+    - name: Level 53
+      size: 4
+    - name: Level 54
+      size: 4
+    - name: Level 55
+      size: 4
+    - name: Level 56
+      size: 4
+    - name: Level 57
+      size: 4
+    - name: Level 58
+      size: 4
+    - name: Level 59
+      size: 4
+    - name: Level 60
+      size: 4
+    - name: Level 61
+      size: 4
+    - name: Level 62
+      size: 4
+    - name: Level 63
+      size: 4
+    - name: Level 64
+      size: 4
+    - name: Level 65
+      size: 4
+    - name: Level 66
+      size: 4
+    - name: Level 67
+      size: 4
+    - name: Level 68
+      size: 4
+    - name: Level 69
+      size: 4
+    - name: Level 70
+      size: 4
+    - name: Level 71
+      size: 4
+    - name: Level 72
+      size: 4
+    - name: Level 73
+      size: 4
+    - name: Level 74
+      size: 4
+    - name: Level 75
+      size: 4
+    - name: Level 76
+      size: 4
+    - name: Level 77
+      size: 4
+    - name: Level 78
+      size: 4
+    - name: Level 79
+      size: 4
+    - name: Level 80
+      size: 4
+    - name: Level 81
+      size: 4
+    - name: Level 82
+      size: 4
+    - name: Level 83
+      size: 4
+    - name: Level 84
+      size: 4
+    - name: Level 85
+      size: 4
+    - name: Level 86
+      size: 4
+    - name: Level 87
+      size: 4
+    - name: Level 88
+      size: 4
+    - name: Level 89
+      size: 4
+    - name: Level 90
+      size: 4
+    - name: Level 91
+      size: 4
+    - name: Level 92
+      size: 4
+    - name: Level 93
+      size: 4
+    - name: Level 94
+      size: 4
+    - name: Level 95
+      size: 4
+    - name: Level 96
+      size: 4
+    - name: Level 97
+      size: 4
+    - name: Level 98
+      size: 4
+    - name: Level 99
+      size: 4
+  offset: 0x80CD928
+0x80CF228:
   type: data
-  size: 0x1B00
-0x080D0D28:
+  size: 6912
+  offset: 0x80CF228
+0x80D0D28: &ENEMY_CONFIGURATION_TABLE
   type: data
   size: 36864
   name: ENEMY_CONFIGURATION_TABLE
   description: Enemy Stats
   entries:
   - name: Unknown
-    size: 0xA
+    size: 10
     type: bytearray
   - name: Background
     size: 2
@@ -387,7 +3632,7 @@ title: "Mother 3 (JPN + translation)"
   - name: Misc Stats
     size: 4
     type: table
-    entries: &MiscStats
+    entries:
     - name: Offense
       size: 1
     - name: Defense
@@ -400,7 +3645,15 @@ title: "Mother 3 (JPN + translation)"
     size: 4
     type: bytearray
   - name: Alternate stats
-    entries: *MiscStats
+    entries:
+    - name: Offense
+      size: 1
+    - name: Defense
+      size: 1
+    - name: IQ
+      size: 1
+    - name: Speed
+      size: 1
     size: 4
     type: table
   - name: Unknown C
@@ -480,7 +3733,8 @@ title: "Mother 3 (JPN + translation)"
   - name: Unknown F
     size: 4
     type: bytearray
-0x080D9D28:
+  offset: 0x80D0D28
+0x80D9D28: &ACTION_TABLE
   type: data
   size: 31200
   name: ACTION_TABLE
@@ -488,15 +3742,17 @@ title: "Mother 3 (JPN + translation)"
   entries:
   - name: Unknown
     type: bytearray
-    size: 0x30
-0x080E1708:
+    size: 48
+  offset: 0x80D9D28
+0x80E1708:
   type: data
-  size: 0x200
-0x080E1908:
+  size: 512
+  offset: 0x80E1708
+0x80E1908: &PSI_DATA
   type: data
   name: PSI_DATA
   description: PSI Data
-  size: 0x15E0
+  size: 5600
   entries:
   - name: Unknown
     size: 4
@@ -531,10 +3787,12 @@ title: "Mother 3 (JPN + translation)"
   - name: Unknown F
     size: 7
     type: bytearray
-0x080E2EE8:
+  offset: 0x80E1908
+0x80E2EE8:
   type: data
-  size: 0x2220
-0x080E5108:
+  size: 8736
+  offset: 0x80E2EE8
+0x80E5108: &ITEM_DATA
   type: data
   size: 27648
   name: ITEM_DATA
@@ -572,25 +3830,25 @@ title: "Mother 3 (JPN + translation)"
     type: bytearray
   - name: HP added
     size: 4
-    signed: y
+    signed: true
   - name: PP added
     size: 2
-    signed: y
+    signed: true
   - name: Unknown E
     size: 2
     type: bytearray
   - name: Offense added
     size: 1
-    signed: y
+    signed: true
   - name: Defense added
     size: 1
-    signed: y
+    signed: true
   - name: IQ added
     size: 1
-    signed: y
+    signed: true
   - name: Speed added
     size: 1
-    signed: y
+    signed: true
   - name: Unknown F
     size: 4
     type: bytearray
@@ -600,165 +3858,170 @@ title: "Mother 3 (JPN + translation)"
     entries:
     - name: Poison
       size: 2
-      signed: y
+      signed: true
     - name: Paralysis
       size: 2
-      signed: y
+      signed: true
     - name: Sleep
       size: 2
-      signed: y
+      signed: true
     - name: Strange
       size: 2
-      signed: y
+      signed: true
     - name: Crying
       size: 2
-      signed: y
+      signed: true
     - name: Forgetful
       size: 2
-      signed: y
+      signed: true
     - name: Nausea
       size: 2
-      signed: y
+      signed: true
     - name: Fleas
       size: 2
-      signed: y
+      signed: true
     - name: Burned
       size: 2
-      signed: y
+      signed: true
     - name: Solidified
       size: 2
-      signed: y
+      signed: true
     - name: Numbness
       size: 2
-      signed: y
+      signed: true
   - name: Elemental Protection
     size: 4
     type: table
     entries:
     - name: PSI Love
       size: 1
-      signed: y
+      signed: true
     - name: PSI Fire
       size: 1
-      signed: y
+      signed: true
     - name: PSI Freeze
       size: 1
-      signed: y
+      signed: true
     - name: PSI Thunder
       size: 1
-      signed: y
+      signed: true
     - name: Explosives
       size: 1
-      signed: y
+      signed: true
   - name: Unknown G
-    size: 0x13
+    size: 19
     type: bytearray
   - name: HP1
     size: 2
   - name: HP2
     size: 2
   - name: Unknown H
-    size: 0x1A
+    size: 26
     type: bytearray
-0x080EBD08:
+  offset: 0x80E5108
+0x80EBD08: &SHOP_DATA
   type: data
-  size: 0x870
+  size: 2160
   name: SHOP_DATA
   description: Items sold in shops
   entries:
   - name: Item List
     type: table
-    size: 0x3C
+    size: 60
     entries:
     - name: Item
       size: 2
-0x080EC578:
+  offset: 0x80EBD08
+0x80EC578:
   type: data
-  size: 0x13C8
-0x080ED940:
+  size: 5064
+  offset: 0x80EC578
+0x80ED940: &MOREWEIRDTEXT
   type: data
-  size: 0x1F3F
-  name: WEIRDTEXT
-  entries:
-  - name: Text
-    type: asciitext
-    terminator: 0
-0x080F0080:
-  type: data
-  size: 0x800
-  entries:
-  - name: Unknown
-    type: bytearray
-    size: 8
-0x080F0880:
-  type: data
-  size: 0x400
-  entries:
-  - name: Unknown
-    type: bytearray
-    size: 4
-0x080F0C80:
-  type: data
-  size: 0xBB8
-  entries:
-  - name: Unknown
-    type: bytearray
-    size: 5
-0x080ED940:
-  type: data
-  size: 0x1F3F
+  size: 7999
   name: MOREWEIRDTEXT
   entries:
   - name: Text
     type: asciitext
     terminator: 0
-0x08CF9A8A:
+  offset: 0x80ED940
+0x80F0080:
   type: data
-  size: 0x17B0
+  size: 2048
+  entries:
+  - name: Unknown
+    type: bytearray
+    size: 8
+  offset: 0x80F0080
+0x80F0880:
+  type: data
+  size: 1024
+  entries:
+  - name: Unknown
+    type: bytearray
+    size: 4
+  offset: 0x80F0880
+0x80F0C80:
+  type: data
+  size: 3000
+  entries:
+  - name: Unknown
+    type: bytearray
+    size: 5
+  offset: 0x80F0C80
+0x8CF9A8A: &ABILDESCTEXT
+  type: data
+  size: 6064
   name: ABILDESCTEXT
   entries:
   - name: Text
     type: UTF-16
-    size: 0x17B0
-0x09A442A4:
+    size: 6064
+  offset: 0x8CF9A8A
+0x9A442A4: &SPRITE_BANK_0_PTRS
   type: data
-  size: 0xFA0
+  size: 4000
   name: SPRITE_BANK_0_PTRS
   description: Pointers for sprite bank 0
   entries:
   - name: Pointer
     size: 4
-0x09A45244:
+  offset: 0x9A442A4
+0x9A45244: &SPRITE_BANK_1
   type: data
-  size: 0x9B3F4
+  size: 635892
   name: SPRITE_BANK_1
-0x09AE0638:
+  offset: 0x9A45244
+0x9AE0638: &SPRITE_BANK_1_PTRS
   type: data
-  size: 0xFA0
+  size: 4000
   name: SPRITE_BANK_1_PTRS
   description: Pointers for sprite bank 1
   entries:
   - name: Pointer
     size: 4
-0x09AEE4C4:
+  offset: 0x9AE0638
+0x9AEE4C4: &SPRITE_BANK_2_PTRS
   type: data
-  size: 0xFA0
+  size: 4000
   name: SPRITE_BANK_2_PTRS
   description: Pointers for sprite bank 2
   entries:
   - name: Pointer
     size: 4
-0x09AF1ED0:
+  offset: 0x9AEE4C4
+0x9AF1ED0: &SPRITE_BANK_3_PTRS
   type: data
-  size: 0xFA0
+  size: 4000
   name: SPRITE_BANK_3_PTRS
   description: Pointers for sprite bank 3
   entries:
   - name: Pointer
     size: 4
-0x09D0BC9C:
+  offset: 0x9AF1ED0
+0x9D0BC9C: &BG_TABLE
   type: data
-  size: 0x13CA2
+  size: 81058
   name: BG_TABLE
   description: Background Layer table
   entries:
@@ -767,7 +4030,6 @@ title: "Mother 3 (JPN + translation)"
   - name: master count
     size: 2
   - name: Layer entries
-    #size: 0x13320
     size: layer count * 0x90
     type: table
     entries:
@@ -793,34 +4055,34 @@ title: "Mother 3 (JPN + translation)"
       size: 2
     - name: UnknownB
       type: bytearray
-      size: 0x26
+      size: 38
     - name: Horizontal drift
       size: 2
-      signed: y
+      signed: true
     - name: Vertical drift
       size: 2
-      signed: y
+      signed: true
     - name: UnknownC
       size: 4
       type: bytearray
     - name: Horizontal amplitude
       size: 2
-      signed: y
+      signed: true
     - name: Vertical amplitude
       size: 2
-      signed: y
+      signed: true
     - name: Horizontal wavenumber
       size: 2
-      signed: y
+      signed: true
     - name: Vertical wavenumber
       size: 2
-      signed: y
+      signed: true
     - name: Horizontal frequency
       size: 2
-      signed: y
+      signed: true
     - name: Vertical frequency
       size: 2
-      signed: y
+      signed: true
     - name: UnknownD
       type: bytearray
       size: 8
@@ -840,774 +4102,1044 @@ title: "Mother 3 (JPN + translation)"
       size: 2
     - name: Unknown B
       size: 2
-0x09D1FB30:
+  offset: 0x9D0BC9C
+0x9D1FB30: &UNKNOWN_BG2
   type: data
   size: 3272
   name: UNKNOWN_BG2
-  description:
+  description: ~
   entries:
   - name: Offset
     type: pointer
     size: 4
   - name: Size
     size: 4
-0x09D207F8:
+  offset: 0x9D1FB30
+0x9D207F8:
   type: data
   size: 832
-0x09D20B38:
+  offset: 0x9D207F8
+0x9D20B38:
   type: data
   size: 2048
-0x09D21338:
+  offset: 0x9D20B38
+0x9D21338:
   type: data
   size: 4352
-0x09D22438:
+  offset: 0x9D21338
+0x9D22438:
   type: data
   size: 2048
-0x09D22C38:
+  offset: 0x9D22438
+0x9D22C38:
   type: data
   size: 2304
-0x09D23538:
+  offset: 0x9D22C38
+0x9D23538:
   type: data
   size: 2048
-0x09D23D38:
+  offset: 0x9D23538
+0x9D23D38:
   type: data
   size: 2304
-0x09D24638:
+  offset: 0x9D23D38
+0x9D24638:
   type: data
   size: 2048
-0x09D24E38:
+  offset: 0x9D24638
+0x9D24E38:
   type: data
   size: 2304
-0x09D25738:
+  offset: 0x9D24E38
+0x9D25738:
   type: data
   size: 2048
-0x09D25F38:
+  offset: 0x9D25738
+0x9D25F38:
   type: data
   size: 2304
-0x09D26838:
+  offset: 0x9D25F38
+0x9D26838:
   type: data
   size: 2048
-0x09D27038:
+  offset: 0x9D26838
+0x9D27038:
   type: data
   size: 2304
-0x09D27938:
+  offset: 0x9D27038
+0x9D27938:
   type: data
   size: 2048
-0x09D28138:
+  offset: 0x9D27938
+0x9D28138:
   type: data
   size: 2304
-0x09D28A38:
+  offset: 0x9D28138
+0x9D28A38:
   type: data
   size: 2048
-0x09D29238:
+  offset: 0x9D28A38
+0x9D29238:
   type: data
   size: 768
-0x09D29538:
+  offset: 0x9D29238
+0x9D29538:
   type: data
   size: 2048
-0x09D29D38:
+  offset: 0x9D29538
+0x9D29D38:
   type: data
   size: 1280
-0x09D2A238:
+  offset: 0x9D29D38
+0x9D2A238:
   type: data
   size: 2048
-0x09D2AA38:
+  offset: 0x9D2A238
+0x9D2AA38:
   type: data
   size: 768
-0x09D2AD38:
+  offset: 0x9D2AA38
+0x9D2AD38:
   type: data
   size: 2048
-0x09D2B538:
+  offset: 0x9D2AD38
+0x9D2B538:
   type: data
   size: 2304
-0x09D2BE38:
+  offset: 0x9D2B538
+0x9D2BE38:
   type: data
   size: 2048
-0x09D2C638:
+  offset: 0x9D2BE38
+0x9D2C638:
   type: data
   size: 768
-0x09D2C938:
+  offset: 0x9D2C638
+0x9D2C938:
   type: data
   size: 2048
-0x09D2D138:
+  offset: 0x9D2C938
+0x9D2D138:
   type: data
   size: 2304
-0x09D2DA38:
+  offset: 0x9D2D138
+0x9D2DA38:
   type: data
   size: 2048
-0x09D2E238:
+  offset: 0x9D2DA38
+0x9D2E238:
   type: data
   size: 6400
-0x09D2FB38:
+  offset: 0x9D2E238
+0x9D2FB38:
   type: data
   size: 2048
-0x09D30338:
+  offset: 0x9D2FB38
+0x9D30338:
   type: data
   size: 4352
-0x09D31438:
+  offset: 0x9D30338
+0x9D31438:
   type: data
   size: 2048
-0x09D31C38:
+  offset: 0x9D31438
+0x9D31C38:
   type: data
   size: 1280
-0x09D32138:
+  offset: 0x9D31C38
+0x9D32138:
   type: data
   size: 2048
-0x09D32938:
+  offset: 0x9D32138
+0x9D32938:
   type: data
   size: 2304
-0x09D33238:
+  offset: 0x9D32938
+0x9D33238:
   type: data
   size: 2048
-0x09D33A38:
+  offset: 0x9D33238
+0x9D33A38:
   type: data
   size: 8448
-0x09D35B38:
+  offset: 0x9D33A38
+0x9D35B38:
   type: data
   size: 2048
-0x09D36338:
+  offset: 0x9D35B38
+0x9D36338:
   type: data
   size: 448
-0x09D364F8:
+  offset: 0x9D36338
+0x9D364F8:
   type: data
   size: 2048
-0x09D36CF8:
+  offset: 0x9D364F8
+0x9D36CF8:
   type: data
   size: 4352
-0x09D37DF8:
+  offset: 0x9D36CF8
+0x9D37DF8:
   type: data
   size: 2048
-0x09D385F8:
+  offset: 0x9D37DF8
+0x9D385F8:
   type: data
   size: 2304
-0x09D38EF8:
+  offset: 0x9D385F8
+0x9D38EF8:
   type: data
   size: 2048
-0x09D396F8:
+  offset: 0x9D38EF8
+0x9D396F8:
   type: data
   size: 3648
-0x09D3A538:
+  offset: 0x9D396F8
+0x9D3A538:
   type: data
   size: 2048
-0x09D3AD38:
+  offset: 0x9D3A538
+0x9D3AD38:
   type: data
   size: 2304
-0x09D3B638:
+  offset: 0x9D3AD38
+0x9D3B638:
   type: data
   size: 2048
-0x09D3BE38:
+  offset: 0x9D3B638
+0x9D3BE38:
   type: data
   size: 2304
-0x09D3C738:
+  offset: 0x9D3BE38
+0x9D3C738:
   type: data
   size: 2048
-0x09D3CF38:
+  offset: 0x9D3C738
+0x9D3CF38:
   type: data
   size: 8448
-0x09D3F038:
+  offset: 0x9D3CF38
+0x9D3F038:
   type: data
   size: 2048
-0x09D3F838:
+  offset: 0x9D3F038
+0x9D3F838:
   type: data
   size: 4352
-0x09D40938:
+  offset: 0x9D3F838
+0x9D40938:
   type: data
   size: 2048
-0x09D41138:
+  offset: 0x9D40938
+0x9D41138:
   type: data
   size: 2304
-0x09D41A38:
+  offset: 0x9D41138
+0x9D41A38:
   type: data
   size: 2048
-0x09D42238:
+  offset: 0x9D41A38
+0x9D42238:
   type: data
   size: 800
-0x09D42558:
+  offset: 0x9D42238
+0x9D42558:
   type: data
   size: 2048
-0x09D42D58:
+  offset: 0x9D42558
+0x9D42D58:
   type: data
   size: 4352
-0x09D43E58:
+  offset: 0x9D42D58
+0x9D43E58:
   type: data
   size: 2048
-0x09D44658:
+  offset: 0x9D43E58
+0x9D44658:
   type: data
   size: 2304
-0x09D44F58:
+  offset: 0x9D44658
+0x9D44F58:
   type: data
   size: 2048
-0x09D45758:
+  offset: 0x9D44F58
+0x9D45758:
   type: data
   size: 1312
-0x09D45C78:
+  offset: 0x9D45758
+0x9D45C78:
   type: data
   size: 2048
-0x09D46478:
+  offset: 0x9D45C78
+0x9D46478:
   type: data
   size: 8448
-0x09D48578:
+  offset: 0x9D46478
+0x9D48578:
   type: data
   size: 2048
-0x09D48D78:
+  offset: 0x9D48578
+0x9D48D78:
   type: data
   size: 4352
-0x09D49E78:
+  offset: 0x9D48D78
+0x9D49E78:
   type: data
   size: 2048
-0x09D4A678:
+  offset: 0x9D49E78
+0x9D4A678:
   type: data
   size: 8448
-0x09D4C778:
+  offset: 0x9D4A678
+0x9D4C778:
   type: data
   size: 2048
-0x09D4CF78:
+  offset: 0x9D4C778
+0x9D4CF78:
   type: data
   size: 1280
-0x09D4D478:
+  offset: 0x9D4CF78
+0x9D4D478:
   type: data
   size: 2048
-0x09D4DC78:
+  offset: 0x9D4D478
+0x9D4DC78:
   type: data
   size: 4352
-0x09D4ED78:
+  offset: 0x9D4DC78
+0x9D4ED78:
   type: data
   size: 2048
-0x09D4F578:
+  offset: 0x9D4ED78
+0x9D4F578:
   type: data
   size: 8448
-0x09D51678:
+  offset: 0x9D4F578
+0x9D51678:
   type: data
   size: 2048
-0x09D51E78:
+  offset: 0x9D51678
+0x9D51E78:
   type: data
   size: 4352
-0x09D52F78:
+  offset: 0x9D51E78
+0x9D52F78:
   type: data
   size: 2048
-0x09D55F38:
+  offset: 0x9D52F78
+0x9D55F38:
   type: data
   size: 1280
-0x09D56438:
+  offset: 0x9D55F38
+0x9D56438:
   type: data
   size: 2048
-0x09D56C38:
+  offset: 0x9D56438
+0x9D56C38:
   type: data
   size: 768
-0x09D56F38:
-  type: data
-  size: 0x800
-0x09D57738:
-  type: data
-  size: 8448
-0x09D59838:
+  offset: 0x9D56C38
+0x9D56F38:
   type: data
   size: 2048
-0x09D5A038:
+  offset: 0x9D56F38
+0x9D57738:
+  type: data
+  size: 8448
+  offset: 0x9D57738
+0x9D59838:
+  type: data
+  size: 2048
+  offset: 0x9D59838
+0x9D5A038:
   type: data
   size: 1216
-0x09D5A4F8:
+  offset: 0x9D5A038
+0x9D5A4F8:
   type: data
   size: 2048
-0x09D5C038:
+  offset: 0x9D5A4F8
+0x9D5C038:
   type: data
   size: 4352
-0x09D5D138:
+  offset: 0x9D5C038
+0x9D5D138:
   type: data
   size: 2048
-0x09D5D938:
+  offset: 0x9D5D138
+0x9D5D938:
   type: data
   size: 2304
-0x09D5E238:
+  offset: 0x9D5D938
+0x9D5E238:
   type: data
   size: 2048
-0x09D5EA38:
+  offset: 0x9D5E238
+0x9D5EA38:
   type: data
   size: 4352
-0x09D5FB38:
+  offset: 0x9D5EA38
+0x9D5FB38:
   type: data
   size: 2048
-0x09D60338:
+  offset: 0x9D5FB38
+0x9D60338:
   type: data
   size: 8448
-0x09D62438:
+  offset: 0x9D60338
+0x9D62438:
   type: data
   size: 2048
-0x09D62C38:
+  offset: 0x9D62438
+0x9D62C38:
   type: data
   size: 4352
-0x09D63D38:
+  offset: 0x9D62C38
+0x9D63D38:
   type: data
   size: 2048
-0x09D69778:
+  offset: 0x9D63D38
+0x9D69778:
   type: data
   size: 3840
-0x09D6A678:
+  offset: 0x9D69778
+0x9D6A678:
   type: data
   size: 2048
-0x09D70D38:
+  offset: 0x9D6A678
+0x9D70D38:
   type: data
   size: 512
-0x09D70F38:
+  offset: 0x9D70D38
+0x9D70F38:
   type: data
-  size: 0x800
-0x09D71C38:
+  size: 2048
+  offset: 0x9D70F38
+0x9D71C38:
   type: data
-  size: 0x800
-0x09D72438:
+  size: 2048
+  offset: 0x9D71C38
+0x9D72438:
   type: data
   size: 1280
-0x09D72938:
+  offset: 0x9D72438
+0x9D72938:
   type: data
   size: 2048
-0x09D73138:
+  offset: 0x9D72938
+0x9D73138:
   type: data
   size: 4352
-0x09D74238:
+  offset: 0x9D73138
+0x9D74238:
   type: data
   size: 2048
-0x09D78658:
+  offset: 0x9D74238
+0x9D78658:
   type: data
   size: 2304
-0x09D78F58:
+  offset: 0x9D78658
+0x9D78F58:
   type: data
   size: 2048
-0x09D79758:
+  offset: 0x9D78F58
+0x9D79758:
   type: data
   size: 4352
-0x09D7A858:
+  offset: 0x9D79758
+0x9D7A858:
   type: data
   size: 2048
-0x09D7B058:
+  offset: 0x9D7A858
+0x9D7B058:
   type: data
   size: 4352
-0x09D7C158:
+  offset: 0x9D7B058
+0x9D7C158:
   type: data
   size: 2048
-0x09D7C958:
+  offset: 0x9D7C158
+0x9D7C958:
   type: data
   size: 4352
-0x09D7DA58:
+  offset: 0x9D7C958
+0x9D7DA58:
   type: data
   size: 2048
-0x09D7E258:
+  offset: 0x9D7DA58
+0x9D7E258:
   type: data
   size: 2304
-0x09D7EB58:
+  offset: 0x9D7E258
+0x9D7EB58:
   type: data
   size: 2048
-0x09D7F358:
+  offset: 0x9D7EB58
+0x9D7F358:
   type: data
   size: 4352
-0x09D80458:
+  offset: 0x9D7F358
+0x9D80458:
   type: data
   size: 2048
-0x09D83418:
+  offset: 0x9D80458
+0x9D83418:
   type: data
   size: 4352
-0x09D84518:
+  offset: 0x9D83418
+0x9D84518:
   type: data
   size: 2048
-0x09D9BB18:
+  offset: 0x9D84518
+0x9D9BB18:
   type: data
   size: 2304
-0x09D9C418:
+  offset: 0x9D9BB18
+0x9D9C418:
   type: data
   size: 2048
-0x09D9CC18:
+  offset: 0x9D9C418
+0x9D9CC18:
   type: data
   size: 2304
-0x09D9D518:
+  offset: 0x9D9CC18
+0x9D9D518:
   type: data
   size: 2048
-0x09D9DD18:
+  offset: 0x9D9D518
+0x9D9DD18:
   type: data
   size: 1280
-0x09D9E218:
+  offset: 0x9D9DD18
+0x9D9E218:
   type: data
   size: 2048
-0x09D9EA18:
+  offset: 0x9D9E218
+0x9D9EA18:
   type: data
   size: 4352
-0x09D9FB18:
+  offset: 0x9D9EA18
+0x9D9FB18:
   type: data
   size: 2048
-0x09DA0318:
+  offset: 0x9D9FB18
+0x9DA0318:
   type: data
   size: 2304
-0x09DA0C18:
+  offset: 0x9DA0318
+0x9DA0C18:
   type: data
   size: 2048
-0x09DA1418:
+  offset: 0x9DA0C18
+0x9DA1418:
   type: data
   size: 2304
-0x09DA1D18:
+  offset: 0x9DA1418
+0x9DA1D18:
   type: data
   size: 2048
-0x09DA2518:
+  offset: 0x9DA1D18
+0x9DA2518:
   type: data
   size: 4640
-0x09DA3738:
+  offset: 0x9DA2518
+0x9DA3738:
   type: data
   size: 2048
-0x09DA3F38:
+  offset: 0x9DA3738
+0x9DA3F38:
   type: data
   size: 512
-0x09DA4138:
+  offset: 0x9DA3F38
+0x9DA4138:
   type: data
   size: 2048
-0x09DA4938:
+  offset: 0x9DA4138
+0x9DA4938:
   type: data
   size: 2304
-0x09DA5238:
+  offset: 0x9DA4938
+0x9DA5238:
   type: data
   size: 2048
-0x09DA5A38:
+  offset: 0x9DA5238
+0x9DA5A38:
   type: data
   size: 1280
-0x09DA5F38:
+  offset: 0x9DA5A38
+0x9DA5F38:
   type: data
   size: 2048
-0x09DA6738:
+  offset: 0x9DA5F38
+0x9DA6738:
   type: data
   size: 512
-0x09DA6938:
+  offset: 0x9DA6738
+0x9DA6938:
   type: data
   size: 2048
-0x09DA7138:
+  offset: 0x9DA6938
+0x9DA7138:
   type: data
   size: 4352
-0x09DA8238:
+  offset: 0x9DA7138
+0x9DA8238:
   type: data
   size: 2048
-0x09DA8A38:
+  offset: 0x9DA8238
+0x9DA8A38:
   type: data
   size: 1280
-0x09DA8F38:
+  offset: 0x9DA8A38
+0x9DA8F38:
   type: data
   size: 2048
-0x09DA9738:
+  offset: 0x9DA8F38
+0x9DA9738:
   type: data
   size: 384
-0x09DA98B8:
+  offset: 0x9DA9738
+0x9DA98B8:
   type: data
   size: 2048
-0x09DAA0B8:
+  offset: 0x9DA98B8
+0x9DAA0B8:
   type: data
   size: 4352
-0x09DAB1B8:
+  offset: 0x9DAA0B8
+0x9DAB1B8:
   type: data
   size: 2048
-0x09DAECD8:
+  offset: 0x9DAB1B8
+0x9DAECD8:
   type: data
   size: 4352
-0x09DAFDD8:
+  offset: 0x9DAECD8
+0x9DAFDD8:
   type: data
   size: 2048
-0x09DB05D8:
+  offset: 0x9DAFDD8
+0x9DB05D8:
   type: data
   size: 4352
-0x09DB16D8:
+  offset: 0x9DB05D8
+0x9DB16D8:
   type: data
   size: 2048
-0x09DB1ED8:
+  offset: 0x9DB16D8
+0x9DB1ED8:
   type: data
   size: 2304
-0x09DB27D8:
+  offset: 0x9DB1ED8
+0x9DB27D8:
   type: data
   size: 2048
-0x09DB2FD8:
+  offset: 0x9DB27D8
+0x9DB2FD8:
   type: data
   size: 512
-0x09DB31D8:
+  offset: 0x9DB2FD8
+0x9DB31D8:
   type: data
   size: 2048
-0x09DB39D8:
+  offset: 0x9DB31D8
+0x9DB39D8:
   type: data
   size: 3392
-0x09DB4718:
+  offset: 0x9DB39D8
+0x9DB4718:
   type: data
   size: 2048
-0x09DB4F18:
+  offset: 0x9DB4718
+0x9DB4F18:
   type: data
   size: 384
-0x09DB5098:
+  offset: 0x9DB4F18
+0x9DB5098:
   type: data
   size: 2048
-0x09DB5898:
+  offset: 0x9DB5098
+0x9DB5898:
   type: data
   size: 2304
-0x09DB6198:
+  offset: 0x9DB5898
+0x9DB6198:
   type: data
   size: 2048
-0x09DB6998:
+  offset: 0x9DB6198
+0x9DB6998:
   type: data
   size: 2304
-0x09DB7298:
+  offset: 0x9DB6998
+0x9DB7298:
   type: data
   size: 2048
-0x09DB7A98:
+  offset: 0x9DB7298
+0x9DB7A98:
   type: data
   size: 2304
-0x09DB8398:
+  offset: 0x9DB7A98
+0x9DB8398:
   type: data
   size: 2048
-0x09DB8B98:
+  offset: 0x9DB8398
+0x9DB8B98:
   type: data
   size: 768
-0x09DB8E98:
+  offset: 0x9DB8B98
+0x9DB8E98:
   type: data
   size: 2048
-0x09DB9698:
+  offset: 0x9DB8E98
+0x9DB9698:
   type: data
   size: 2304
-0x09DB9F98:
+  offset: 0x9DB9698
+0x9DB9F98:
   type: data
   size: 2048
-0x09DBA798:
+  offset: 0x9DB9F98
+0x9DBA798:
   type: data
   size: 4352
-0x09DBB898:
+  offset: 0x9DBA798
+0x9DBB898:
   type: data
   size: 2048
-0x09DBC098:
+  offset: 0x9DBB898
+0x9DBC098:
   type: data
   size: 768
-0x09DBC398:
+  offset: 0x9DBC098
+0x9DBC398:
   type: data
   size: 2048
-0x09DBCB98:
+  offset: 0x9DBC398
+0x9DBCB98:
   type: data
   size: 4352
-0x09DBDC98:
+  offset: 0x9DBCB98
+0x9DBDC98:
   type: data
   size: 2048
-0x09DBE498:
+  offset: 0x9DBDC98
+0x9DBE498:
   type: data
   size: 1792
-0x09DBEB98:
+  offset: 0x9DBE498
+0x9DBEB98:
   type: data
   size: 2048
-0x09DBF398:
+  offset: 0x9DBEB98
+0x9DBF398:
   type: data
   size: 384
-0x09DBF518:
+  offset: 0x9DBF398
+0x9DBF518:
   type: data
   size: 2048
-0x09DBFD18:
+  offset: 0x9DBF518
+0x9DBFD18:
   type: data
   size: 4352
-0x09DC0E18:
+  offset: 0x9DBFD18
+0x9DC0E18:
   type: data
   size: 2048
-0x09DC1618:
+  offset: 0x9DC0E18
+0x9DC1618:
   type: data
   size: 4352
-0x09DC2718:
+  offset: 0x9DC1618
+0x9DC2718:
   type: data
   size: 2048
-0x09DC2F18:
+  offset: 0x9DC2718
+0x9DC2F18:
   type: data
   size: 2304
-0x09DC3818:
+  offset: 0x9DC2F18
+0x9DC3818:
   type: data
   size: 2048
-0x09DC4018:
+  offset: 0x9DC3818
+0x9DC4018:
   type: data
   size: 1280
-0x09DC4518:
+  offset: 0x9DC4018
+0x9DC4518:
   type: data
   size: 2048
-0x09DC4D18:
+  offset: 0x9DC4518
+0x9DC4D18:
   type: data
   size: 2304
-0x09DC5618:
+  offset: 0x9DC4D18
+0x9DC5618:
   type: data
   size: 2048
-0x09DC5E18:
+  offset: 0x9DC5618
+0x9DC5E18:
   type: data
   size: 8704
-0x09DC8018:
+  offset: 0x9DC5E18
+0x9DC8018:
   type: data
   size: 2048
-0x09DC8818:
+  offset: 0x9DC8018
+0x9DC8818:
   type: data
   size: 2304
-0x09DC9118:
+  offset: 0x9DC8818
+0x9DC9118:
   type: data
   size: 2048
-0x09DC9918:
+  offset: 0x9DC9118
+0x9DC9918:
   type: data
   size: 2304
-0x09DCA218:
+  offset: 0x9DC9918
+0x9DCA218:
   type: data
   size: 2048
-0x09DCAA18:
+  offset: 0x9DCA218
+0x9DCAA18:
   type: data
   size: 4352
-0x09DCBB18:
+  offset: 0x9DCAA18
+0x9DCBB18:
   type: data
   size: 2048
-0x09DCC318:
+  offset: 0x9DCBB18
+0x9DCC318:
   type: data
   size: 512
-0x09DCC518:
+  offset: 0x9DCC318
+0x9DCC518:
   type: data
   size: 2048
-0x09DCCD18:
+  offset: 0x9DCC518
+0x9DCCD18:
   type: data
   size: 8448
-0x09DCEE18:
+  offset: 0x9DCCD18
+0x9DCEE18:
   type: data
   size: 2048
-0x09DCF618:
+  offset: 0x9DCEE18
+0x9DCF618:
   type: data
   size: 2304
-0x09DCFF18:
+  offset: 0x9DCF618
+0x9DCFF18:
   type: data
   size: 2048
-0x09DD0718:
+  offset: 0x9DCFF18
+0x9DD0718:
   type: data
   size: 2304
-0x09DD1018:
+  offset: 0x9DD0718
+0x9DD1018:
   type: data
   size: 2048
-0x09DD1818:
+  offset: 0x9DD1018
+0x9DD1818:
   type: data
   size: 2304
-0x09DD2118:
+  offset: 0x9DD1818
+0x9DD2118:
   type: data
   size: 2048
-0x09DD2918:
+  offset: 0x9DD2118
+0x9DD2918:
   type: data
   size: 2304
-0x09DD3218:
+  offset: 0x9DD2918
+0x9DD3218:
   type: data
   size: 2048
-0x09DD3A18:
+  offset: 0x9DD3218
+0x9DD3A18:
   type: data
   size: 1536
-0x09DD4018:
+  offset: 0x9DD3A18
+0x9DD4018:
   type: data
   size: 2048
-0x09DD4818:
+  offset: 0x9DD4018
+0x9DD4818:
   type: data
   size: 2304
-0x09DD5118:
+  offset: 0x9DD4818
+0x9DD5118:
   type: data
   size: 2048
-0x09DD5918:
+  offset: 0x9DD5118
+0x9DD5918:
   type: data
   size: 8448
-0x09DD7A18:
+  offset: 0x9DD5918
+0x9DD7A18:
   type: data
   size: 2048
-0x09DD8218:
+  offset: 0x9DD7A18
+0x9DD8218:
   type: data
   size: 8448
-0x09DDA318:
+  offset: 0x9DD8218
+0x9DDA318:
   type: data
   size: 2048
-0x09DDAB18:
+  offset: 0x9DDA318
+0x9DDAB18:
   type: data
   size: 1280
-0x09DDB018:
+  offset: 0x9DDAB18
+0x9DDB018:
   type: data
   size: 2048
-0x09DDB818:
+  offset: 0x9DDB018
+0x9DDB818:
   type: data
   size: 2304
-0x09DDC118:
+  offset: 0x9DDB818
+0x9DDC118:
   type: data
   size: 2048
-0x09DDC918:
+  offset: 0x9DDC118
+0x9DDC918:
   type: data
   size: 8448
-0x09DDEA18:
+  offset: 0x9DDC918
+0x9DDEA18:
   type: data
   size: 2048
-0x09DDF218:
+  offset: 0x9DDEA18
+0x9DDF218:
   type: data
   size: 2304
-0x09DDFB18:
+  offset: 0x9DDF218
+0x9DDFB18:
   type: data
   size: 2048
-0x09DE0318:
+  offset: 0x9DDFB18
+0x9DE0318:
   type: data
   size: 7424
-0x09DE2018:
+  offset: 0x9DE0318
+0x9DE2018:
   type: data
   size: 2048
-0x09DE2818:
+  offset: 0x9DE2018
+0x9DE2818:
   type: data
   size: 2304
-0x09DE3118:
+  offset: 0x9DE2818
+0x9DE3118:
   type: data
   size: 2048
-0x09DE3918:
+  offset: 0x9DE3118
+0x9DE3918:
   type: data
   size: 704
-0x09DE3BD8:
+  offset: 0x9DE3918
+0x9DE3BD8:
   type: data
   size: 2048
-0x09DE43D8:
+  offset: 0x9DE3BD8
+0x9DE43D8:
   type: data
   size: 768
-0x09DE46D8:
+  offset: 0x9DE43D8
+0x9DE46D8:
   type: data
   size: 2048
-0x09DE4ED8:
+  offset: 0x9DE46D8
+0x9DE4ED8:
   type: data
   size: 2304
-0x09DE57D8:
+  offset: 0x9DE4ED8
+0x9DE57D8:
   type: data
   size: 2048
-0x09DE5FD8:
+  offset: 0x9DE57D8
+0x9DE5FD8:
   type: data
   size: 2304
-0x09DE68D8:
+  offset: 0x9DE5FD8
+0x9DE68D8:
   type: data
   size: 2048
-0x09DE70D8:
+  offset: 0x9DE68D8
+0x9DE70D8:
   type: data
   size: 2304
-0x09DE79D8:
+  offset: 0x9DE70D8
+0x9DE79D8:
   type: data
   size: 2048
-0x09DE81D8:
+  offset: 0x9DE79D8
+0x9DE81D8:
   type: data
   size: 4352
-0x09DE92D8:
+  offset: 0x9DE81D8
+0x9DE92D8:
   type: data
   size: 2048
-0x09DE9AD8:
+  offset: 0x9DE92D8
+0x9DE9AD8:
   type: data
   size: 1280
-0x09DE9FD8:
+  offset: 0x9DE9AD8
+0x9DE9FD8:
   type: data
   size: 2048
-0x09DED1D8:
+  offset: 0x9DE9FD8
+0x9DED1D8:
   type: data
   size: 7936
-0x09DEF0D8:
+  offset: 0x9DED1D8
+0x9DEF0D8:
   type: data
   size: 2048
-0x09DEF8D8:
+  offset: 0x9DEF0D8
+0x9DEF8D8:
   type: data
   size: 8448
-0x09DF19D8:
+  offset: 0x9DEF8D8
+0x9DF19D8:
   type: data
   size: 2048
-0x09DF4AD8:
+  offset: 0x9DF19D8
+0x9DF4AD8:
   type: data
   size: 4352
-0x09DF5BD8:
+  offset: 0x9DF4AD8
+0x9DF5BD8:
   type: data
   size: 2048
-0x09E14A18:
+  offset: 0x9DF5BD8
+0x9E14A18:
   type: data
   size: 416
-0x09E14BB8:
+  offset: 0x9E14A18
+0x9E14BB8:
   type: data
   size: 2048
+  offset: 0x9E14BB8
+EXP_NEEDED_TABLE: *EXP_NEEDED_TABLE
+ENEMY_CONFIGURATION_TABLE: *ENEMY_CONFIGURATION_TABLE
+ACTION_TABLE: *ACTION_TABLE
+PSI_DATA: *PSI_DATA
+ITEM_DATA: *ITEM_DATA
+SHOP_DATA: *SHOP_DATA
+MOREWEIRDTEXT: *MOREWEIRDTEXT
+ABILDESCTEXT: *ABILDESCTEXT
+SPRITE_BANK_0_PTRS: *SPRITE_BANK_0_PTRS
+SPRITE_BANK_1: *SPRITE_BANK_1
+SPRITE_BANK_1_PTRS: *SPRITE_BANK_1_PTRS
+SPRITE_BANK_2_PTRS: *SPRITE_BANK_2_PTRS
+SPRITE_BANK_3_PTRS: *SPRITE_BANK_3_PTRS
+BG_TABLE: *BG_TABLE
+UNKNOWN_BG2: *UNKNOWN_BG2
 ...
