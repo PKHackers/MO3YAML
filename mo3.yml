@@ -110,757 +110,360 @@ EVENT_0E_JUMP: !array
   Size: 0x50
   Item Type: !pointer
     Size: 4
-SINE_TABLE16:
+SINE_TABLE16: !array
   Offset: 0x80C17D8
   Description: 16-bit Sine lookup table
   Type: data
-  Graph: y
   Size: 0x280
-  Entries:
-  - Type: int
+  Item Type: !int
     Size: 2
     Signed: y
-BATTLE_MEMORY_ORDER:
+BATTLE_MEMORY_ORDER: !array
   Offset: 0x80C6B64
   Description: A list mapping battle memory entries to internal enemy entries
   Type: data
   Size: 0x1FE
-  Entries:
-  - Type: int
+  Item Type: !int
     Size: 2
-CHARACTER_DATA:
+CHARACTER_DATA: !array
   Offset: 0x80CC4E8
-  Type: data
   Size: 5184
-  Entries:
-  - Name: Nobody's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Flint's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Lucas's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Duster's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Kumatora's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Boney's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Salsa's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Wess's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Thomas's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Ionia's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Fuel's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Alec's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Fassad's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: Claus's Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: ???'s Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
-  - Name: ????'s Data
-    Size: 324
-    Type: struct
-    Entries:
-    - Name: ID
-      Size: 1
-    - Name: Unknown
-      Size: 191
-      Type: bytearray
-    - Name: PSI Learned
-      Size: 116
-      Type: struct
-      Entries:
-      - Name: PSI ID
-        Size: 2
-      - Name: Level
-        Size: 2
-    - Name: Unknown B
-      Size: 16
-      Type: bytearray
   Offset: 0x80CC4E8
-EXP_NEEDED_TABLE:
-  Type: data
+  Labels:
+    0x0000: NOBODY
+    0x0144: FLINT
+    0x0288: LUCAS
+    0x03CC: DUSTER
+    0x0510: KUMATORA
+    0x0654: BONEY
+    0x0798: SALSA
+    0x08DC: WESS
+    0x0A20: THOMAS
+    0x0B64: IONIA
+    0x0CA8: FUEL
+    0x0DEC: ALEC
+    0x0F30: FASSAD
+    0x1074: CLAUS
+    0x11B8: UNKNOWN1
+    0x12FC: UNKNOWN2
+  Item Type: !struct
+    Entries:
+      ID: !int
+        Size: 1
+      UNKNOWN: !unknown
+        Size: 191
+      PSI_LEARNED: !array
+        Size: 116
+        Item Type: !struct
+          Entries:
+            ID: !int
+              Size: 2
+            LEVEL: !int
+              Size: 2
+      UNKNOWN2: !unknown
+        Size: 16
+EXP_NEEDED_TABLE: !array
   Size: 6400
   Description: EXP needed for next level
-  Entries:
-  - Name: Nobody level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Flint level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Lucas level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Duster level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Kumatora level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Boney level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Salsa level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Wess level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Thomas level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Ionia level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Fuel level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Alec level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Fassad level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: Claus level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: ??? level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
-  - Name: ???? level up data
-    Size: 400
-    Type: struct
-    Entries:
-    - Size: 4
   Offset: 0x80CD928
-UNKNOWN_80CF228:
-  Type: data
+  Labels: 
+    0x0000: NOBODY
+    0x0190: FLINT
+    0x0320: LUCAS
+    0x04B0: DUSTER
+    0x0640: KUMATORA
+    0x07D0: BONEY
+    0x0960: SALSA
+    0x0AF0: WESS
+    0x0C80: THOMAS
+    0x0E10: IONIA
+    0x0FA0: FUEL
+    0x1130: ALEC
+    0x12C0: FASSAD
+    0x1450: CLAUS
+    0x15E0: UNKNOWN1
+    0x1770: UNKNOWN2
+  Item Type: !array
+    Size: 400
+    Item Type: !int
+      Size: 4
+UNKNOWN_80CF228: !unknown
   Size: 6912
   Offset: 0x80CF228
-HELP_TEXT:
+HELP_TEXT: !array
   Description: Help Text
   Offset: 0x8D0BB60
   Size: 0x7D1C
-  Type: data
-  Entries:
-  - Type: script
+  Item Type: !script
     Terminator: [0xFF, 0xFF]
-ENEMY_CONFIGURATION_TABLE:
-  Type: data
+ENEMY_CONFIGURATION_TABLE: !array
   Size: 36864
+  Offset: 0x80E1908
   Description: Enemy Stats
-  Entries:
-  - Name: Unknown
-    Size: 10
-    Type: bytearray
-  - Name: Background
-    Size: 2
-  - Name: Swirl Music
-    Size: 2
-  - Name: Battle Music
-    Size: 2
-  - Name: Victory Music
-    Size: 2
-  - Name: Level
-    Size: 2
-  - Name: HP
-    Size: 4
-  - Name: PP
-    Size: 4
-  - Name: Misc Stats
-    Size: 4
-    Type: struct
+  Item Type: !struct
     Entries:
-    - Name: Offense
-      Size: 1
-    - Name: Defense
-      Size: 1
-    - Name: IQ
-      Size: 1
-    - Name: Speed
-      Size: 1
-  - Name: Unknown B
-    Size: 4
-    Type: bytearray
-  - Name: Alternate stats
-    Entries:
-    - Name: Offense
-      Size: 1
-    - Name: Defense
-      Size: 1
-    - Name: IQ
-      Size: 1
-    - Name: Speed
-      Size: 1
-    Size: 4
-    Type: struct
-  - Name: Unknown C
-    Size: 4
-    Type: bytearray
-  - Name: Weaknesses
-    Type: struct
-    Size: 40
-    Entries:
-    - Name: Poison
-      Size: 2
-    - Name: Paralysis
-      Size: 2
-    - Name: Sleep
-      Size: 2
-    - Name: Feeling Strange
-      Size: 2
-    - Name: Crying
-      Size: 2
-    - Name: Forgetful
-      Size: 2
-    - Name: Nausea
-      Size: 2
-    - Name: Fleas
-      Size: 2
-    - Name: Burned
-      Size: 2
-    - Name: Solidified
-      Size: 2
-    - Name: Numbness
-      Size: 2
-    - Name: DCMC
-      Size: 2
-    - Name: Wall Staples
-      Size: 2
-    - Name: Apology
-      Size: 2
-    - Name: Laughter
-      Size: 2
-    - Name: PK Love
-      Size: 2
-    - Name: PK Fire
-      Size: 2
-    - Name: PK Freeze
-      Size: 2
-    - Name: PK Thunder
-      Size: 2
-    - Name: Explosives
-      Size: 2
-  - Name: Actions
-    Type: struct
-    Size: 16
-    Entries:
-    - Size: 2
-  - Name: Unknown D
-    Size: 2
-    Type: bytearray
-  - Name: Encounter Text ID
-    Size: 1
-  - Name: Death Text ID
-    Size: 1
-  - Name: Unknown E
-    Size: 16
-    Type: bytearray
-  - Name: Items Dropped
-    Type: struct
-    Size: 12
-    Entries:
-    - Name: Item
-      Size: 1
-    - Name: Chance
-      Size: 3
-  - Name: EXP Gained
-    Size: 4
-  - Name: DP Gained
-    Size: 4
-  - Name: Unknown F
-    Size: 4
-    Type: bytearray
-  Offset: 0x80D0D28
-ACTION_TABLE:
-  Type: data
+      UNKNOWN: !unknown
+        Size: 10
+      BACKGROUND: !int
+        Size: 2
+      SWIRL_MUSIC: !int
+        Size: 2
+      BATTLE_MUSIC: !int
+        Size: 2
+      VICTORY_MUSIC: !int
+        Size: 2
+      LEVEL: !int
+        Size: 2
+      HP: !int
+        Size: 4
+      PP: !int
+        Size: 4
+      BASIC_STATS: !struct
+        Size: 4
+        Entries: &BASICSTATS
+          OFFENSE: !int
+            Size: 1
+          DEFENSE: !int
+            Size: 1
+          IQ: !int
+            Size: 1
+          SPEED: !int
+            Size: 1
+      UNKNOWNB: !unknown
+        Size: 4
+      ALTERNATE_STATS: !struct
+        Entries: *BASICSTATS
+        Size: 4
+      UNKNOWNC: !unknown
+        Size: 4
+      WEAKNESSES: !struct
+        Size: 40
+        Entries:
+          POISON: !int
+            Size: 2
+          PARALYSIS: !int
+            Size: 2
+          SLEEP: !int
+            Size: 2
+          FEELING_STRANGE: !int
+            Size: 2
+          CRYING: !int
+            Size: 2
+          FORGETFUL: !int
+            Size: 2
+          NAUSEA: !int
+            Size: 2
+          FLEAS: !int
+            Size: 2
+          BURNED: !int
+            Size: 2
+          SOLIDIFIED: !int
+            Size: 2
+          NUMBNESS: !int
+            Size: 2
+          DCMC: !int
+            Size: 2
+          WALL_STAPLES: !int
+            Size: 2
+          APOLOGY: !int
+            Size: 2
+          LAUGHTER: !int
+            Size: 2
+          PK_LOVE: !int
+            Size: 2
+          PK_FIRE: !int
+            Size: 2
+          PK_FREEZE: !int
+            Size: 2
+          PK_THUNDER: !int
+            Size: 2
+          EXPLOSIVES: !int
+            Size: 2
+      ACTIONS: !array
+        Size: 16
+        Item Type: !int
+          Size: 2
+      UNKNOWND: !unknown
+        Size: 2
+      ENCOUNTER_TEXT_ID: !int
+        Size: 1
+      DEATH_TEXT_ID: !int
+        Size: 1
+      UNKNOWNE: !unknown
+        Size: 16
+      ITEMS_DROPPED: !array
+        Size: 12
+        Item Type: !struct
+          Entries:
+            ITEM: !int
+              Size: 1
+            CHANCE: !int
+              Size: 3
+      EXP_GAINED: !int
+        Size: 4
+      DP_GAINED: !int
+        Size: 4
+      UNKNOWNF: !unknown
+        Size: 4
+ACTION_TABLE: !array
   Size: 31200
   Description: Action Table?
-  Entries:
-  - Name: Unknown
-    Type: bytearray
+  Item Type: !unknown
     Size: 48
   Offset: 0x80D9D28
-UNKNOWN_80E1708:
-  Type: data
+UNKNOWN_80E1708: !unknown
   Size: 512
   Offset: 0x80E1708
-PSI_DATA:
+PSI_DATA: !array
   Type: data
   Description: PSI Data
   Size: 5600
-  Entries:
-  - Name: Unknown
-    Size: 4
-    Type: bytearray
-  - Name: Type
-    Size: 1
-  - Name: Unknown B
-    Size: 7
-    Type: bytearray
-  - Name: PP Cost
-    Size: 2
-  - Name: Unknown C
-    Size: 10
-    Type: bytearray
-  - Name: Target
-    Size: 1
-  - Name: Unknown D
-    Size: 5
-    Type: bytearray
-  - Name: Power (Low)
-    Size: 2
-  - Name: Power (High)
-    Size: 2
-  - Name: Unknown E
-    Size: 13
-    Type: bytearray
-  - Name: Animation
-    Type: struct
-    Size: 2
+  Item Type: !struct
     Entries:
-    - Size: 1
-  - Name: Unknown F
-    Size: 7
-    Type: bytearray
-  Offset: 0x80E1908
-UNKNOWN_80E2EE8:
-  Type: data
+      UNKNOWN: !unknown
+        Size: 4
+      TYPE: !int
+        Size: 1
+      UNKNOWNB: !unknown
+        Size: 7
+      PP_COST: !int
+        Size: 2
+      UNKNOWNC: !unknown
+        Size: 10
+      TARGET: !int
+        Size: 1
+      UNKNOWND: !unknown
+        Size: 5
+      POWERLOW: !int
+        Size: 2
+      POWERHIGH: !int
+        Size: 2
+      UNKNOWNE: !unknown
+        Size: 13
+      ANIMATION: !array
+        Size: 2
+        Item Type: !int
+          Size: 1
+      UNKNOWNF: !unknown
+        Size: 7
+UNKNOWN_80E2EE8: !unknown
   Size: 8736
   Offset: 0x80E2EE8
-ITEM_DATA: &ITEM_DATA
-  Type: data
+ITEM_DATA: !array &ITEM_DATA
   Size: 27648
   Description: Item data
-  Entries:
-  - Name: Unknown A
-    Size: 4
-    Type: bytearray
-  - Name: Type
-    Size: 1
-  - Name: Unknown B
-    Size: 3
-    Type: bytearray
-  - Name: Key Item
-    Size: 1
-  - Name: Unknown C
-    Size: 1
-    Type: bytearray
-  - Name: Sell Price
-    Size: 2
-  - Name: Equipped By
-    Size: 1
-    Type: bitfield
-    bitvalues:
-    - Unknown
-    - Flint
-    - Lucas
-    - Duster
-    - Kumatora
-    - Boney
-    - Salsa
-    - UnknownB
-  - Name: Unknown D
-    Size: 3
-    Type: bytearray
-  - Name: HP added
-    Size: 4
-    Signed: true
-  - Name: PP added
-    Size: 2
-    Signed: true
-  - Name: Unknown E
-    Size: 2
-    Type: bytearray
-  - Name: Offense added
-    Size: 1
-    Signed: true
-  - Name: Defense added
-    Size: 1
-    Signed: true
-  - Name: IQ added
-    Size: 1
-    Signed: true
-  - Name: Speed added
-    Size: 1
-    Signed: true
-  - Name: Unknown F
-    Size: 4
-    Type: bytearray
-  - Name: Protections
-    Size: 22
-    Type: struct
-    Entries:
-    - Name: Poison
-      Size: 2
-      Signed: true
-    - Name: Paralysis
-      Size: 2
-      Signed: true
-    - Name: Sleep
-      Size: 2
-      Signed: true
-    - Name: Strange
-      Size: 2
-      Signed: true
-    - Name: Crying
-      Size: 2
-      Signed: true
-    - Name: Forgetful
-      Size: 2
-      Signed: true
-    - Name: Nausea
-      Size: 2
-      Signed: true
-    - Name: Fleas
-      Size: 2
-      Signed: true
-    - Name: Burned
-      Size: 2
-      Signed: true
-    - Name: Solidified
-      Size: 2
-      Signed: true
-    - Name: Numbness
-      Size: 2
-      Signed: true
-  - Name: Elemental Protection
-    Size: 4
-    Type: struct
-    Entries:
-    - Name: PSI Love
-      Size: 1
-      Signed: true
-    - Name: PSI Fire
-      Size: 1
-      Signed: true
-    - Name: PSI Freeze
-      Size: 1
-      Signed: true
-    - Name: PSI Thunder
-      Size: 1
-      Signed: true
-    - Name: Explosives
-      Size: 1
-      Signed: true
-  - Name: Unknown G
-    Size: 19
-    Type: bytearray
-  - Name: HP1
-    Size: 2
-  - Name: HP2
-    Size: 2
-  - Name: Unknown H
-    Size: 26
-    Type: bytearray
   Offset: 0x80E5108
+  Item Type: !struct
+    Entries:
+      UNKNOWNA: !unknown
+        Size: 4
+      TYPE: !int
+        Size: 1
+      UNKNOWNB: !unknown
+        Size: 3
+      KEY_ITEM: !int
+        Size: 1
+      UNKNOWNC: !unknown
+        Size: 1
+      SELL_PRICE: !int
+        Size: 2
+      EQUIPPED BY: !bitfield
+        Size: 1
+        Bit Values:
+        - Unknown
+        - Flint
+        - Lucas
+        - Duster
+        - Kumatora
+        - Boney
+        - Salsa
+        - UnknownB
+      UNKNOWND: !unknown
+        Size: 3
+      HP_ADDED: !int
+        Size: 4
+        Signed: true
+      PP_ADDED: !int
+        Size: 2
+        Signed: true
+      UNKNOWNE: !unknown
+        Size: 2
+      OFFENSE_ADDED: !int
+        Size: 1
+        Signed: true
+      DEFENSE_ADDED: !int
+        Size: 1
+        Signed: true
+      IQ_ADDED: !int
+        Size: 1
+        Signed: true
+      SPEED_ADDED: !int
+        Size: 1
+        Signed: true
+      UNKNOWNF: !unknown
+        Size: 4
+      PROTECTIONS: !struct
+        Size: 22
+        Entries:
+          POISON: !int
+            Size: 2
+            Signed: true
+          PARALYSIS: !int
+            Size: 2
+            Signed: true
+          SLEEP: !int
+            Size: 2
+            Signed: true
+          STRANGE: !int
+            Size: 2
+            Signed: true
+          CRYING: !int
+            Size: 2
+            Signed: true
+          FORGETFUL: !int
+            Size: 2
+            Signed: true
+          NAUSEA: !int
+            Size: 2
+            Signed: true
+          FLEAS: !int
+            Size: 2
+            Signed: true
+          BURNED: !int
+            Size: 2
+            Signed: true
+          SOLIDIFIED: !int
+            Size: 2
+            Signed: true
+          NUMBNESS: !int
+            Size: 2
+            Signed: true
+      ELEMENTAL_PROTECTION: !struct
+        Size: 4
+        Entries:
+          PSI_LOVE: !int
+            Size: 1
+            Signed: true
+          PSI_FIRE: !int
+            Size: 1
+            Signed: true
+          PSI_FREEZE: !int
+            Size: 1
+            Signed: true
+          PSI_THUNDER: !int
+            Size: 1
+            Signed: true
+          EXPLOSIVES: !int
+            Size: 1
+            Signed: true
+      UNKNOWNG: !unknown
+        Size: 19
+      HP1: !int
+        Size: 2
+      HP2: !int
+        Size: 2
+      UNKNOWNH: !unknown
+        Size: 26
 SHOP_DATA: !array
   Size: 2160
   Description: Items sold in shops
@@ -897,285 +500,235 @@ MYSTERY_80EC930: !array
         Size: 2
       WINMUSIC: !int
         Size: 2
-MUSIC_PLAYER_TABLE:
-  Type: data
+MUSIC_PLAYER_TABLE: !array
   Size: 0xC00
   Offset: 0x80ECD40
-  Entries:
-  - Type: int
-    Size: 2
-    Name: MUSIC_PLAYER_ID
-    Description: Music Player ID
-  - Type: int
-    Size: 2
-    Name: INTERNAL_SONG_ID
-    Description: Internal Song ID
-  - Type: bytearray
-    Size: 4
-    Name: UNKNOWN
-  - Type: int
-    Size: 4
-    Name: SONG_DURATION
-    Description: Song Duration
-MOREWEIRDTEXT:
+  Item Type: !struct
+    Entries:
+      MUSIC_PLAYER_ID: !int
+        Size: 2
+        Pretty Name: Music Player ID
+      INTERNAL_SONG_ID: !int
+        Size: 2
+        Pretty Name: Internal Song ID
+      UNKNOWN: !unknown
+        Size: 4
+      SONG_DURATION: !int
+        Size: 4
+        Pretty Name: Song Duration
+MOREWEIRDTEXT: !array
   Type: data
   Size: 7999
-  Entries:
-  - Name: Text
-    Type: script
+  Item Type: !script
     Terminator: 0
   Offset: 0x80ED940
-SINE_TABLE32:
+SINE_TABLE32: !array
   Offset: 0x80EF880
   Description: 32-bit Sine lookup table
   Type: data
-  Graph: y
   Size: 0x1400
-  Entries:
-  - Type: int
+  Item Type: !int
     Size: 4
     Signed: y
-UNKNOWN_80F0080:
-  Type: data
+UNKNOWN_80F0080: !array
   Size: 2048
-  Entries:
-  - Name: Unknown
-    Type: bytearray
+  Item Type: !unknown
     Size: 8
   Offset: 0x80F0080
-UNKNOWN_80F0880:
-  Type: data
+UNKNOWN_80F0880: !array
   Size: 1024
-  Entries:
-  - Name: Unknown
-    Type: bytearray
+  Item Type: !unknown
     Size: 4
   Offset: 0x80F0880
-UNKNOWN_80F0C80:
-  Type: data
+UNKNOWN_80F0C80: !array
   Size: 3000
-  Entries:
-  - Name: Unknown
-    Type: bytearray
+  Item Type: !unknown
     Size: 5
   Offset: 0x80F0C80
-DEBUG_BLOCK_F1838:
+DEBUG_BLOCK_F1838: !array
   Offset: 0x80F1838
-  Type: data
   Size: 0x33EF
-  Group: DEBUGSYMBOLS
-  Entries: &DEBUGSYMBOLS
-  - Type: script
+  Item Type: !script &DEBUGSYMBOLS
     Charset: sjis
     Terminator: 0x00
-DEBUG_BLOCK_FE6F8:
+DEBUG_BLOCK_FE6F8: !array
   Offset: 0x80FE6F8
-  Type: data
-  Group: DEBUGSYMBOLS
   Size: 0x1FBA
-  Entries: *DEBUGSYMBOLS
-DEBUG_BLOCK_1016BC:
+  Item Type: *DEBUGSYMBOLS
+DEBUG_BLOCK_1016BC: !array
   Offset: 0x81016BC
-  Type: data
-  Group: DEBUGSYMBOLS
   Size: 0x1C18
-  Options:
-    Skip Blank Entries: true
-  Entries: *DEBUGSYMBOLS
-SINE_TABLE16COPY:
+  Item Type: *DEBUGSYMBOLS
+SINE_TABLE16COPY: !array
   Offset: 0x81006BC
   Description: 16-bit Sine lookup table copy
-  Type: data
-  Graph: y
   Size: 0x280
-  Entries:
-  - Type: int
+  Item Type: !int
     Size: 2
     Signed: y
-UNKNOWN_MATH:
+UNKNOWN_MATH: !array
   Offset: 0x810093C
-  Type: data
-  Graph: y
   Size: 0xD80
-  Entries:
-  - Type: int
+  Item Type: !int
     Size: 2
     Signed: y
-ABILDESCTEXT:
-  Type: data
+ABILDESCTEXT: !array
   Size: 6064
-  Entries:
-  - Name: Text
-    Type: script
+  Item Type: !script
     Terminator: [0xFF, 0xFF]
   Offset: 0x8CF9A8A
-MEMORY_ENEMY_NAMES:
-  Type: data
+MEMORY_ENEMY_NAMES: !array
   Size: 13180
   Description: Battle Memory enemy names
-  Entries:
-  - Name: Text
-    Type: script
+  Item Type: !script
     Size: 0x14
   Offset: 0x8D23498
-PSI_NAMES:
-  Type: data
+PSI_NAMES: !array
   Size: 0x70C
   Description: PSI Ability Names
-  Entries:
-  - Type: script
+  Item Type: !script
     Size: 0x14
     Charset: One-Byte
   Offset: 0x8D2CBF4
-EVENT_CC_04_LENGTHS:
-  Type: data
+EVENT_CC_04_LENGTHS: !array
   Size: 0x400
   Offset: 0x8D2D658
   Description: Number of arguments for the [04 00 XX 00] event CCs
-  Entries:
-  - Size: 4
-EVENT_CC_04_FUNCTIONS:
-  Type: data
+  Item Type: !int
+    Size: 4
+EVENT_CC_04_FUNCTIONS: !array
   Size: 0x400
   Offset: 0x8D2DA58
-  Entries:
-  - Size: 4
-    Type: pointer
-HOTSPOT_POINTER_TABLE:
-  Type: data
+  Item Type: !pointer
+    Size: 4
+HOTSPOT_POINTER_TABLE: !struct
   Size: 0x1F44
   Offset: 0x911DEB4
   Entries:
-  - Size: 4
-    Name: COUNT
-  - Type: struct
-    Size: 0x1F40
-    Name: POINTERS
-    Entries:
-    - Type: pointer
+    COUNT: !int
       Size: 4
-      Base: 0x911DEB4
-HOTSPOT_TABLE:
-  Type: data
+    POINTERS: !array
+      Size: 0x1F40
+      Item Type: !pointer
+        Size: 4
+        Base: 0x911DEB4
+HOTSPOT_TABLE: !array
   Size: 0xC594
   Offset: 0x911FDF8
-  Width: 0xC
-  Entries:
-  - Size: 4
-    Bit Values:
-    - Valid Entry
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - Door Width A
-    - Door Width B
-    - Door Height A
-    - Door Height B
-    - 10
-    - 11
-    - 12
-    - Hotspot Width A
-    - Hotspot Width B
-    - Hotspot Width C
-    - Hotspot Width D
-    - Hotspot Width E
-    - Hotspot Height A
-    - Hotspot Height B
-    - Hotspot Height C
-    - Hotspot Height D
-    - Hotspot Height E
-    - 23
-    - 24
-    - 25
-    - 26
-    - 27
-    - 28
-    - 29
-    - 30
-    - 31
-  - Size: 1
-    Name: UNKNOWNA
-  - Size: 1
-    Name: UNKNOWNB
-  - Size: 1
-    Name: UNKNOWNC
-  - Size: 1
-    Name: UNKNOWND
-  - Size: 2
-    Name: DESTINATION
-  - Size: 1
-    Name: X
-  - Size: 1
-    Name: 'Y'
-MYSTERY_TABLE_912C390:
-  Type: data
+  Item Type: !struct
+    Entries:
+      TYPE: !int
+       Size: 4
+       Bit Values:
+        - Valid Entry
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - Door Width A
+        - Door Width B
+        - Door Height A
+        - Door Height B
+        - 10
+        - 11
+        - 12
+        - Hotspot Width A
+        - Hotspot Width B
+        - Hotspot Width C
+        - Hotspot Width D
+        - Hotspot Width E
+        - Hotspot Height A
+        - Hotspot Height B
+        - Hotspot Height C
+        - Hotspot Height D
+        - Hotspot Height E
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+      UNKNOWNA: !unknown
+        Size: 1
+      UNKNOWNB: !unknown
+        Size: 1
+      UNKNOWNC: !unknown
+        Size: 1
+      UNKNOWND: !unknown
+        Size: 1
+      DESTINATION: !int
+        Size: 2
+      X: !int
+        Size: 1
+      'Y': !int
+        Size: 1
+MYSTERY_TABLE_912C390: !unknown
   Size: 0xFA8
   Offset: 0x912C390
-MYSTERY_TABLE_912D338:
-  Type: data
+MYSTERY_TABLE_912D338: !unknown
   Size: 0x5820
   Offset: 0x912D338
-MYSTERY_TABLE_9132B58_PTRS:
-  Type: data
+MYSTERY_TABLE_9132B58_PTRS: !struct
   Size: 0x4E24
   #Size: 0x330B8
   Offset: 0x9132B58
   Entries:
-  - Size: 4
-    Name: ENTRYCOUNT
-  - Size: 0x4E20
-    Type: struct
-    Entries:
-    - Type: pointer
-      Base: 0x9132B58
+    ENTRYCOUNT: !int
       Size: 4
-MYSTERY_TABLE_9132B58:
-  Type: data
+    ENTRIES: !array
+      Size: 0x4E20
+      Item Type: !pointer
+        Base: 0x9132B58
+        Size: 4
+MYSTERY_TABLE_9132B58: !array
   Size: 0x2E294
   Offset: 0x913797C
-  Entries:
-  - Size: 16
-    Type: bytearray
-  - Size: 1
-    Name: OBJECTID
-  - Size: 7
-    Type: bytearray
-GIFTBOX_TABLE:
-  Type: data
+  Item Type: !struct
+    Entries:
+      UNKNOWN: !unknown
+        Size: 16
+      OBJECTID: !int
+        Size: 1
+      UNKNOWN2: !unknown
+        Size: 7
+GIFTBOX_TABLE: !array
   Size: 0x4000
   Offset: 0x9165C10
-  Entries:
-  - Size: 2
-    Name: MAPID
-  - Size: 1
-    Name: X
-  - Size: 1
-    Name: 'Y'
-  - Size: 2
-    Name: 'ITEMID'
-  - Size: 8
-    Type: bytearray
-  - Size: 2
-    Name: FLAGS
-    Bit Values:
-    - 0
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
-    - 13
-    - 14
-    - 15
+  Item Type: !struct
+    Entries:
+      MAPID: !int
+        Size: 2
+      X: !int
+        Size: 1
+      'Y': !int
+        Size: 1
+      ITEMID: !int
+        Size: 2
+      UNKNOWN: !unknown
+        Size: 8
+      FLAGS: !int
+        Size: 2
+        Bit Values:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
 DOOR_DESTINATION_TABLE: !struct
   Size: 0x2EEC
   Offset: 0x9169C1C
@@ -1196,8 +749,7 @@ DOOR_DESTINATION_TABLE: !struct
             Size: 1
           DESTINATION_Y: !int
             Size: 1
-MYSTERIOUS_TEXTISH_DATA:
-  Type: data
+MYSTERIOUS_TEXTISH_DATA: !unknown
   Size: 0x1D1AE4
   Offset: 0x9198C10
 DIALOGUE: !unknown
@@ -1218,66 +770,55 @@ SPRITE_BANK_1_PTRS: !array
   Item Type: !pointer
     Size: 4
   Offset: 0x9AE0638
-SPRITE_BANK_2_PTRS:
+SPRITE_BANK_2_PTRS: !array
   Type: data
   Size: 4000
   Description: Pointers for sprite bank 2
-  Entries:
-  - Name: Pointer
+  Item Type: !pointer
     Size: 4
   Offset: 0x9AEE4C4
-SPRITE_BANK_3_PTRS:
-  Type: data
+SPRITE_BANK_3_PTRS: !array
   Size: 4000
   Description: Pointers for sprite bank 3
-  Entries:
-  - Name: Pointer
+  Item Type: !pointer
     Size: 4
   Offset: 0x9AF1ED0
-TITLE_PTRS:
-  Type: data
+TITLE_PTRS: !struct
   Description: Pointers for title screen frame data
   Size: 0xE8
   Offset: 0x9BCDD8C
   Entries:
-  - Size: 4
-    Name: ENTRYCOUNT
-    Description: Entry Count
-  - Type: struct
-    Size: 0xC
-    Name: INITIAL_Frame
-    Description: Initial Frame
-    Entries:
-    - Size: 4
-      Name: TILESET
-      Description: Tile Set
-      Type: pointer
-      Base: 0x9BCDD8C
-    - Size: 4
-      Name: PALETTE
-      Description: Palette Set
-      Type: pointer
-      Base: 0x9BCDD8C
-    - Size: 4
-      Name: ARRANGEMENT
-      Description: Arrangement
-      Type: pointer
-      Base: 0x9BCDD8C
-  - Type: struct
-    Size: 0xD8
-    Name: FRAMES
-    Description: Frames
-    Entries:
-    - Size: 4
-      Name: PALETTE
-      Description: Tile Set
-      Type: pointer
-      Base: 0x9BCDD8C
-    - Size: 4
-      Name: ARRANGEMENT
-      Description: Arrangement
-      Type: pointer
-      Base: 0x9BCDD8C
+    ENTRYCOUNT: !int
+      Size: 4
+      Pretty Name: Entry Count
+    INITIAL_FRAME: !struct
+      Pretty Name: Initial Frame
+      Entries:
+        TILESET: !pointer
+          Size: 4
+          Pretty Name: Tile Set
+          Base: 0x9BCDD8C
+        PALETTE: !pointer
+          Size: 4
+          Pretty Name: Palette Set
+          Base: 0x9BCDD8C
+        ARRANGEMENT: !pointer
+          Size: 4
+          Pretty Name: Arrangement
+          Base: 0x9BCDD8C
+    FRAMES: !array
+      Size: 0xD8
+      Pretty Name: Frames
+      Item Type: !struct
+        Entries:
+          PALETTE: !pointer
+            Size: 4
+            Pretty Name: Tile Set
+            Base: 0x9BCDD8C
+          ARRANGEMENT: !pointer
+            Size: 4
+            Pretty Name: Arrangement
+            Base: 0x9BCDD8C
 #MUSIC_NAME_PTRS:
 #  Type: data
 #  Size: 0x20E
@@ -1287,13 +828,11 @@ TITLE_PTRS:
 #  - Type: pointer
 #    Size: 2
 #    Base: 0x8CFB3FC
-MUSIC_NAMES:
-  Type: data
+MUSIC_NAMES: !array
   Size: 0x22EC
   Description: Music track titles
   Offset: 0x8CFB60A
-  Entries:
-  - Type: script
+  Item Type: !script
     Terminator: [0xFF, 0xFF]
 ENEMY_NAMES: !array
   Size: 16450
@@ -1301,89 +840,86 @@ ENEMY_NAMES: !array
   Item Type: !script
     Size: 0x32
   Offset: 0x9CFFDA4
-BG_TABLE:
-  Type: data
+BG_TABLE: !array
   Size: 81058
   Description: Background Layer table
-  Entries:
-  - Name: LAYER_COUNT
-    Size: 2
-  - Name: MASTER_COUNT
-    Size: 2
-  - Name: LAYER_ENTRIES
-    Size: LAYER_COUNT*144
-    Type: struct
-    Entries:
-    - Name: GraphicsID
-      Size: 2
-    - Name: ArrangementID
-      Size: 2
-    - Name: Palette1
-      Type: palette
-      Size: 32
-    - Name: Palette2
-      Type: palette
-      Size: 32
-    - Name: Palette_direction
-      Size: 2
-    - Name: UnknownA
-      Size: 2
-    - Name: Palette_start
-      Size: 2
-    - Name: Palette_end
-      Size: 2
-    - Name: Palette_delay
-      Size: 2
-    - Name: UnknownB
-      Type: bytearray
-      Size: 38
-    - Name: Horizontal_drift
-      Size: 2
-      Signed: true
-    - Name: Vertical_drift
-      Size: 2
-      Signed: true
-    - Name: UnknownC
-      Size: 4
-      Type: bytearray
-    - Name: Horizontal_amplitude
-      Size: 2
-      Signed: true
-    - Name: Vertical_amplitude
-      Size: 2
-      Signed: true
-    - Name: Horizontal_wavenumber
-      Size: 2
-      Signed: true
-    - Name: Vertical_wavenumber
-      Size: 2
-      Signed: true
-    - Name: Horizontal_frequency
-      Size: 2
-      Signed: true
-    - Name: Vertical_frequency
-      Size: 2
-      Signed: true
-    - Name: UnknownD
-      Type: bytearray
-      Size: 8
-  - Name: MASTER_BACKGROUND_TABLE
-    Type: struct
-    Size: MASTER_COUNT*12
-    Entries:
-    - Name: Layer_1
-      Size: 2
-    - Name: Layer_2
-      Size: 2
-    - Name: Alpha_1
-      Size: 2
-    - Name: Alpha_2
-      Size: 2
-    - Name: Unknown_A
-      Size: 2
-    - Name: Unknown_B
-      Size: 2
   Offset: 0x9D0BC9C
+  Item Type: !struct
+    Entries:
+      LAYER_COUNT: !int
+        Size: 2
+      MASTER_COUNT: !int
+        Size: 2
+      LAYER_ENTRIES: !struct
+        Size: LAYER_COUNT*144
+        Entries:
+          GFXID: !int
+            Size: 2
+          ARRID: !int
+            Size: 2
+          PALETTE1: !array
+            Item Type: !color
+              Size: 2
+            Size: 32
+          PALETTE2: !array
+            Item Type: !color
+              Size: 2
+            Size: 32
+          PALETTE_DIRECTION: !int
+            Size: 2
+          UNKNOWNA: !int
+            Size: 2
+          PALETTE_START: !int
+            Size: 2
+          PALETTE_END: !int
+            Size: 2
+          PALETTE_DELAY: !int
+            Size: 2
+          UNKNOWNB: !unknown
+            Size: 38
+          HORIZONTAL_DRIFT: !int
+            Size: 2
+            Signed: true
+          VERTICAL_DRIFT: !int
+            Size: 2
+            Signed: true
+          UNKNOWNC: !unknown
+            Size: 4
+          HORIZONTAL_AMPLITUDE: !int
+            Size: 2
+            Signed: true
+          VERTICAL_AMPLITUDE: !int
+            Size: 2
+            Signed: true
+          HORIZONTAL_WAVENUMBER: !int
+            Size: 2
+            Signed: true
+          VERTICAL_WAVENUMBER: !int
+            Size: 2
+            Signed: true
+          HORIZONTAL_FREQUENCY: !int
+            Size: 2
+            Signed: true
+          VERTICAL_FREQUENCY: !int
+            Size: 2
+            Signed: true
+          UNKNOWND: !unknown
+            Size: 8
+      MASTER_BACKGROUND_TABLE: !struct
+        Size: MASTER_COUNT*12
+        Entries:
+          LAYER_1: !int
+            Size: 2
+          LAYER_2: !int
+            Size: 2
+          ALPHA_1: !int
+            Size: 2
+          ALPHA_2: !int
+            Size: 2
+          UNKNOWNA: !int
+            Size: 2
+          UNKNOWN_B: !int
+            Size: 2
 UNKNOWN_BG2: !array &UNKNOWN_BG2
   Size: 3272
   Item Type: !struct
